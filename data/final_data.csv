@@ -1,0 +1,1170 @@
+state_name,town,median_household_income,population,median_age,intersection_density,population_density,pct_bachelor,county,median_sale_price,composite_score
+Delaware,Bear,79981,21625,37.4,126.51,1487.68,0.21,"New Castle, DE",355512.5,27.88
+Delaware,Bellefonte,78155,1294,41.7,160.29,2765.46,0.23,"New Castle, DE",355512.5,29.22
+Delaware,Bridgeville,53276,2499,56.3,103.64,1355.96,0.24,"Sussex, DE",450929.2,29.71
+Delaware,Brookside,62810,14202,34.8,114.36,1481.87,0.16,"New Castle, DE",355512.5,22.01
+Delaware,Camden,65023,3786,36.9,138.94,732.63,0.28,"Kent, DE",344872.0,29.67
+Delaware,Cheswold,60766,1705,43.5,51.45,985.55,0.12,"Kent, DE",344872.0,17.91
+Delaware,Claymont,58984,9508,36.7,153.38,1613.25,0.19,"New Castle, DE",355512.5,24.06
+Delaware,Clayton,91346,3845,35.9,55.11,917.32,0.12,"Clayton, DE",394097.38,23.67
+Delaware,Dagsboro,56029,1087,50.1,38.08,270.58,0.09,"Sussex, DE",450929.2,19.33
+Delaware,Delaware City,65625,1885,39.0,179.67,2585.38,0.15,"New Castle, DE",355512.5,23.6
+Delaware,Dover,51073,38940,34.4,212.88,723.54,0.14,"Kent, DE",344872.0,21.2
+Delaware,Dover Base Housing,53260,3135,27.1,162.16,2074.98,0.2,"Kent, DE",344872.0,23.88
+Delaware,Edgemoor,67841,6681,41.2,124.33,1483.27,0.2,"New Castle, DE",355512.5,25.75
+Delaware,Elsmere,66833,6167,34.1,231.46,3222.14,0.12,"New Castle, DE",355512.5,22.71
+Delaware,Felton,55833,1144,48.8,158.99,1490.86,0.11,"Kent, DE",344872.0,18.92
+Delaware,Frankford,71667,1088,32.4,42.43,699.44,0.08,"Sussex, DE",450929.2,20.56
+Delaware,Georgetown,42204,7079,35.8,101.85,530.15,0.07,"Sussex County, DE",297703.54,11.29
+Delaware,Glasgow,96954,15342,41.4,60.19,501.32,0.22,"New Castle, DE",355512.5,29.23
+Delaware,Greenville,118618,2763,40.0,71.33,430.29,0.39,"New Castle, DE",355512.5,42.29
+Delaware,Greenwood,63717,1459,36.3,131.77,1137.58,0.11,"Sussex, DE",450929.2,23.68
+Delaware,Harrington,62639,3730,28.5,78.24,673.95,0.06,"Kent, DE",344872.0,14.41
+Delaware,Highland Acres,96131,3910,42.9,74.88,1235.42,0.28,"Kent, DE",344872.0,32.73
+Delaware,Hockessin,158036,13464,45.8,59.57,484.9,0.33,"New Castle, DE",355512.5,44.23
+Delaware,Kent Acres,39236,1756,37.7,129.42,880.87,0.12,"Kent, DE",344872.0,16.67
+Delaware,Laurel,34615,3886,20.0,90.21,1085.35,0.09,"Sussex, DE",450929.2,17.34
+Delaware,Lewes,78125,3257,65.7,81.33,269.74,0.25,"Sussex, DE",450929.2,33.4
+Delaware,Long Neck,52301,3022,61.5,91.46,573.43,0.1,"Sussex, DE",450929.2,20.99
+Delaware,Middletown,93750,23001,40.3,87.62,688.97,0.23,"New Castle, DE",355512.5,30.04
+Delaware,Milford,47849,11249,41.8,104.34,752.37,0.18,"Sussex, DE",450929.2,25.14
+Delaware,Millsboro,57632,6542,43.3,153.72,1180.33,0.17,"Sussex, DE",450929.2,26.79
+Delaware,Millville,85221,1790,64.1,46.49,354.15,0.33,"Sussex, DE",450929.2,38.0
+Delaware,Milton,59531,3224,42.5,149.3,911.65,0.23,"Sussex, DE",450929.2,30.42
+Delaware,Newark,61646,31393,22.7,217.83,964.51,0.27,"New Castle, DE",355512.5,30.72
+Delaware,New Castle,83651,5482,50.1,50.73,3.81,0.13,"New Castle, DE",355512.5,21.98
+Delaware,Newport,68036,1224,27.9,222.33,1220.3,0.08,"New Castle, DE",355512.5,19.97
+Delaware,North Star,153971,8009,51.6,33.19,449.05,0.44,"New Castle, DE",355512.5,49.52
+Delaware,Ocean View,80225,2556,64.6,95.26,908.54,0.29,"Sussex, DE",450929.2,36.15
+Delaware,Pike Creek,131603,7398,44.9,55.44,1310.27,0.32,"New Castle, DE",355512.5,39.72
+Delaware,Pike Creek Valley,77402,11718,37.7,92.2,1240.47,0.3,"New Castle, DE",355512.5,31.94
+Delaware,Rehoboth Beach,137783,1392,63.5,323.74,525.24,0.39,"Sussex, DE",450929.2,55.15
+Delaware,Rising Sun-Lebanon,73241,3772,31.3,42.87,605.67,0.21,"Kent, DE",344872.0,24.52
+Delaware,Riverview,77083,2091,51.7,24.95,372.66,0.16,"New Castle, DE",355512.5,22.36
+Delaware,Rodney Village,40542,1472,35.5,141.87,1044.14,0.09,"Kent, DE",344872.0,15.1
+Delaware,St. Georges,129125,1197,46.9,98.52,464.27,0.18,"New Castle, DE",355512.5,31.92
+Delaware,Seaford,55162,7852,41.8,137.44,606.97,0.1,"Sussex, DE",450929.2,21.94
+Delaware,Selbyville,77974,2806,43.5,57.75,635.52,0.14,"Sussex, DE",450929.2,25.43
+Delaware,Smyrna,63794,12619,35.1,92.94,1482.68,0.16,"Kent, DE",344872.0,21.52
+Delaware,Townsend,142115,2671,34.0,172.94,2431.15,0.26,"New Castle, DE",355512.5,40.08
+Delaware,Wilmington,49354,70926,36.3,175.65,2141.67,0.17,"New Castle, DE",355512.5,22.18
+Delaware,Wilmington Manor,64767,8212,37.9,206.75,2199.27,0.08,"New Castle, DE",355512.5,19.56
+Delaware,Woodside East,61136,1867,44.3,79.71,1473.5,0.09,"New Castle, DE",355512.5,17.23
+Delaware,Wyoming,61765,1636,36.8,134.64,1707.52,0.2,"Kent, DE",344872.0,24.51
+District of Columbia,Washington,93547,683154,34.3,438.22,3742.4,0.25,"District of Columbia, DC",603637.0,49.05
+Maryland,Aberdeen,70885,16176,37.9,130.09,1084.12,0.14,"Harford, MD",382609.5,23.52
+Maryland,Aberdeen Proving Ground,128393,2862,29.3,10.92,1201.59,0.29,"Harford, MD",382609.5,37.55
+Maryland,Abingdon,134132,5320,41.9,133.12,1144.09,0.25,"Harford, MD",382609.5,38.55
+Maryland,Accokeek,140338,12241,44.9,32.29,159.38,0.26,"Prince George's, MD",444632.2,40.37
+Maryland,Adamstown,161429,2212,42.6,81.2,823.89,0.38,"Frederick, MD",468047.9,52.55
+Maryland,Adelphi,71622,16977,32.6,141.13,2065.48,0.16,"Prince George's, MD",444632.2,27.68
+Maryland,Algonquin,56413,1010,60.7,64.18,456.46,0.18,"Harford, MD",382609.5,22.81
+Maryland,Andrews AFB,79837,3419,22.6,243.82,195.59,0.25,"Prince George's, MD",444632.2,35.8
+Maryland,Annapolis,92026,40581,37.5,210.31,1930.91,0.27,"Anne Arundel, MD",483625.6,39.69
+Maryland,Annapolis Neck,146220,13059,48.9,139.44,788.65,0.35,"Anne Arundel, MD",483625.6,50.85
+Maryland,Arbutus,88989,19662,37.6,134.27,1023.23,0.21,"Baltimore County, MD",432810.58,32.2
+Maryland,Arden on the Severn,103269,1386,61.9,52.65,315.87,0.29,"Anne Arundel, MD",483625.6,39.51
+Maryland,Arnold,133343,25056,38.2,127.73,790.61,0.31,"Anne Arundel, MD",483625.6,46.1
+Maryland,Ashton-Sandy Spring,140000,6230,45.4,67.65,199.36,0.2,"Montgomery, MD",603752.0,43.87
+Maryland,Aspen Hill,96773,53850,36.0,97.51,1691.07,0.24,"Montgomery, MD",603752.0,40.89
+Maryland,Baden,146875,1832,52.1,21.15,29.88,0.14,"Prince George's, MD",444632.2,33.86
+Maryland,Ballenger Creek,99794,23114,35.2,186.53,920.67,0.24,"Frederick, MD",468047.9,37.73
+Maryland,Baltimore,54124,592211,35.7,303.02,2590.23,0.17,"Baltimore, MD",352829.1,25.71
+Maryland,Baltimore Highlands,56471,7506,37.8,91.77,1929.44,0.1,"Baltimore County, MD",350124.58,17.03
+Maryland,Bartonsville,120587,2176,36.0,78.98,682.02,0.23,"Frederick, MD",468047.9,37.96
+Maryland,Bel Air,64036,10663,42.7,472.87,1197.68,0.23,"Harford, MD",382609.5,35.69
+Maryland,Bel Air North,126202,30969,39.9,73.5,671.44,0.27,"Harford, MD",382609.5,37.58
+Maryland,Bel Air South,106126,56928,38.1,150.36,970.91,0.27,"Harford, MD",382609.5,36.28
+Maryland,Beltsville,88023,18769,38.7,137.57,895.28,0.18,"Prince George's, MD",444632.2,30.7
+Maryland,Bensville,143011,14483,40.2,41.95,339.22,0.18,"Charles, MD",433008.1,35.66
+Maryland,Berlin,69955,4950,39.4,69.66,515.44,0.17,"Worcester, MD",430325.8,25.76
+Maryland,Berwyn Heights,120662,3317,38.2,232.08,2126.51,0.23,"Prince George's, MD",444632.2,40.45
+Maryland,Bethesda,178370,66294,43.0,179.03,1694.99,0.29,"Montgomery, MD",603752.0,56.81
+Maryland,Bladensburg,54208,9591,32.1,276.8,2999.79,0.12,"Prince George's, MD",444632.2,25.82
+Maryland,Boonsboro,105196,3757,36.9,69.55,602.04,0.18,"Washington, MD",309587.5,26.14
+Maryland,Bowie,127029,58113,42.9,85.39,1078.55,0.25,"Prince George's, MD",444632.2,38.99
+Maryland,Bowleys Quarters,100352,6447,40.6,44.94,645.32,0.19,"Baltimore, MD",352829.1,27.16
+Maryland,Bowling Green,55250,1282,41.9,73.07,867.41,0.13,"Allegany, MD",140650.0,10.06
+Maryland,Braddock Heights,115929,2984,44.0,35.79,199.23,0.28,"Frederick, MD",468047.9,39.07
+Maryland,Brandywine,141076,9852,41.8,35.47,162.9,0.2,"Prince George's, MD",444632.2,36.81
+Maryland,Brentwood,71645,3775,33.8,351.88,3523.5,0.13,"Prince George's, MD",444632.2,30.54
+Maryland,Brock Hall,183021,12764,39.6,57.49,965.59,0.34,"Prince George's, MD",444632.2,51.23
+Maryland,Brooklyn Park,69494,15541,37.7,143.28,1570.35,0.1,"Anne Arundel, MD",483625.6,24.95
+Maryland,Brookmont,250001,3841,46.1,85.52,1132.71,0.27,"Montgomery, MD",603752.0,63.65
+Maryland,Brown Station,135592,3463,42.4,21.72,289.32,0.16,"Prince George's, MD",444632.2,33.22
+Maryland,Brunswick,96659,7578,37.0,189.16,850.72,0.21,"Frederick, MD",468047.9,35.69
+Maryland,Bryans Road,95241,8502,36.7,51.41,393.1,0.17,"Charles, MD",433008.1,28.81
+Maryland,Buckeystown,113008,1397,65.0,68.62,1843.59,0.24,"Frederick, MD",468047.9,37.42
+Maryland,Burnt Mills,104167,4215,37.8,227.19,2016.02,0.23,"Montgomery, MD",603752.0,44.41
+Maryland,Burtonsville,136557,10457,38.8,64.01,544.16,0.31,"Montgomery, MD",603752.0,49.69
+Maryland,Cabin John,196250,2335,49.2,117.27,1342.23,0.31,"Montgomery, MD",603752.0,59.55
+Maryland,California,101907,14129,35.6,103.81,416.09,0.25,"St. Mary's, MD",414602.5,34.78
+Maryland,Callaway,121212,1363,49.9,54.57,156.92,0.16,"St. Mary's County, MD",462577.25,33.38
+Maryland,Calverton,100218,17772,43.0,153.42,1412.01,0.23,"Prince George's, MD",444632.2,35.84
+Maryland,Cambridge,40094,13026,38.2,53.16,464.12,0.11,"Dorchester, MD",307756.1,12.82
+Maryland,Camp Springs,107724,22903,40.3,94.75,1526.14,0.17,"Prince George's, MD",444632.2,32.0
+Maryland,Cape St. Claire,115259,8762,42.3,114.2,1629.69,0.28,"Anne Arundel, MD",483625.6,41.51
+Maryland,Capitol Heights,85104,4083,40.6,303.29,7284.22,0.14,"Prince George's, MD",444632.2,31.45
+Maryland,Carney,70403,29873,39.5,125.15,1550.64,0.25,"Baltimore County, MD",414952.48,30.99
+Maryland,Catonsville,93481,42789,39.0,127.62,992.85,0.28,"Baltimore County, MD",465632.05,38.11
+Maryland,Cedar Heights,93306,2145,30.0,384.36,3852.6,0.09,"Anne Arundel, MD",483625.6,32.83
+Maryland,Centreville,94744,4640,41.4,72.95,649.65,0.24,"Queen Anne's, MD",564519.1,38.74
+Maryland,Charlestown,82188,1819,35.3,107.69,1288.76,0.25,"Cecil, MD",331583.3,28.76
+Maryland,Charlotte Hall,87031,1447,49.0,35.33,113.11,0.11,"St. Mary's, MD",414602.5,23.34
+Maryland,Chesapeake Beach,120194,6303,42.5,165.58,895.83,0.22,"Calvert, MD",432995.8,37.88
+Maryland,Chesapeake Ranch Estates,94983,9387,35.3,53.14,663.32,0.19,"Calvert, MD",432995.8,30.16
+Maryland,Chester,84835,4371,43.9,60.8,250.73,0.2,"Queen Anne's, MD",564519.1,34.85
+Maryland,Chestertown,44665,5557,39.1,212.89,1102.54,0.16,"Kent, MD",401329.1,23.82
+Maryland,Cheverly,106732,6191,40.7,113.34,1932.98,0.32,"Prince George's, MD",444632.2,41.21
+Maryland,Chevy Chase,207971,9889,48.0,239.33,7759.74,0.29,"Montgomery, MD",603752.0,62.38
+Maryland,Chevy Chase View,250001,1103,42.9,203.76,1616.9,0.39,"Montgomery, MD",603752.0,72.94
+Maryland,Chevy Chase Village,250001,1858,52.2,126.31,1607.42,0.32,"Montgomery, MD",603752.0,67.28
+Maryland,Chillum,65462,36428,34.7,259.2,3605.3,0.15,"Prince George's, MD",444632.2,28.68
+Maryland,Church Hill,66071,1123,31.7,102.7,1119.68,0.13,"Queen Anne's, MD",564519.1,28.76
+Maryland,Clarksburg,152917,27354,36.4,96.39,921.22,0.34,"Montgomery, MD",603752.0,54.37
+Maryland,Clinton,112277,39925,43.9,60.52,577.77,0.18,"Prince George's, MD",444632.2,32.75
+Maryland,Cloverly,134978,16473,41.9,50.0,542.22,0.31,"Montgomery, MD",603752.0,49.5
+Maryland,Cobb Island,116674,1262,47.6,65.56,617.44,0.06,"Charles, MD",433008.1,25.75
+Maryland,Cockeysville,74112,23803,34.8,159.45,697.18,0.32,"Baltimore County, MD",433863.26,37.61
+Maryland,Colesville,129102,14468,50.7,100.82,1139.63,0.28,"Montgomery, MD",603752.0,47.9
+Maryland,College Park,69736,34961,21.6,429.47,1986.09,0.25,"Prince George's, MD",444632.2,38.42
+Maryland,Colmar Manor,90000,1544,35.4,497.34,3490.43,0.12,"Prince George's, MD",444632.2,35.39
+Maryland,Columbia,113592,105086,38.9,175.9,1157.72,0.29,"Howard, MD",575125.0,47.01
+Maryland,Coral Hills,71766,9169,41.0,146.37,2048.95,0.13,"Prince George's, MD",444632.2,25.94
+Maryland,Cottage City,59922,1089,47.4,349.06,2317.83,0.16,"Prince George's, MD",444632.2,30.89
+Maryland,Cresaptown,52281,5575,41.2,59.33,744.93,0.04,"Allegany, MD",140650.0,3.71
+Maryland,Crisfield,36146,2533,35.4,84.34,571.22,0.09,"Somerset, MD",187354.1,7.01
+Maryland,Crofton,129766,29812,36.4,113.05,1635.98,0.33,"Anne Arundel, MD",483625.6,46.68
+Maryland,Croom,135193,2756,46.1,15.2,27.16,0.19,"Prince George's, MD",444632.2,35.16
+Maryland,Crownsville,96490,1273,60.1,40.73,90.96,0.23,"Anne Arundel, MD",483625.6,35.0
+Maryland,Cumberland,43699,19028,40.7,161.09,730.53,0.14,"Allegany, MD",140650.0,10.47
+Maryland,Damascus,137933,16945,40.6,56.6,486.61,0.26,"Montgomery, MD",603752.0,47.1
+Maryland,Darnestown,187238,6647,47.5,19.96,132.01,0.35,"Montgomery, MD",603752.0,58.26
+Maryland,Deale,109479,4710,48.8,51.08,342.26,0.27,"Anne Arundel, MD",483625.6,38.82
+Maryland,Delmar,66987,3748,37.7,79.31,2022.1,0.21,"Wicomico, MD",273987.5,21.89
+Maryland,Denton,52876,4712,36.0,127.36,567.23,0.08,"Caroline, MD",327349.0,14.86
+Maryland,Derwood,71471,1700,42.4,107.97,1320.45,0.3,"Montgomery, MD",603752.0,41.51
+Maryland,District Heights,69099,5927,35.1,146.12,2392.43,0.18,"Prince George's, MD",444632.2,28.12
+Maryland,Drum Point,135069,3007,44.5,54.03,582.37,0.23,"Calvert, MD",432995.8,37.7
+Maryland,Dundalk,58203,66426,37.8,211.1,1517.41,0.09,"Baltimore County, MD",397893.41,21.06
+Maryland,Dunkirk,140278,2299,42.4,91.58,156.08,0.29,"Calvert, MD",432995.8,42.9
+Maryland,Easton,72771,16912,43.3,103.82,531.89,0.22,"Talbot, MD",674680.6,40.05
+Maryland,East Riverdale,81458,17136,30.4,130.36,8429.52,0.11,"Prince George's, MD",444632.2,25.63
+Maryland,Edgemere,93576,8915,44.4,39.28,244.7,0.14,"Baltimore County, MD",411204.24,25.64
+Maryland,Edgewater,100606,9075,40.7,286.65,1155.15,0.22,"Anne Arundel, MD",483625.6,39.92
+Maryland,Edgewood,71755,25004,35.0,163.91,769.38,0.11,"Harford, MD",382609.5,22.55
+Maryland,Edmonston,78750,1577,29.2,322.28,1407.86,0.09,"Prince George's, MD",444632.2,27.81
+Maryland,Eldersburg,130036,30418,41.3,40.23,240.2,0.3,"Carroll, MD",440079.1,41.61
+Maryland,Elkridge,119856,24115,34.1,150.79,1119.52,0.3,"Howard, MD",575125.0,47.89
+Maryland,Elkton,57682,15724,36.0,108.09,1194.34,0.13,"Cecil, MD",331583.3,18.62
+Maryland,Ellicott City,136234,74432,41.8,114.64,750.73,0.33,"Howard County, MD",513361.37,48.38
+Maryland,Emmitsburg,71583,2769,43.5,139.73,1020.86,0.14,"Frederick, MD",468047.9,27.11
+Maryland,Essex,59914,40710,38.9,115.16,1528.08,0.11,"Baltimore County, MD",370874.38,19.35
+Maryland,Fairland,85565,25324,36.3,146.23,1700.28,0.26,"Montgomery, MD",603752.0,41.79
+Maryland,Fairmount Heights,68375,1455,38.8,1442.18,2409.16,0.07,"Prince George's, MD",444632.2,50.6
+Maryland,Fairwood,177315,7453,38.6,72.88,975.22,0.32,"Prince George's, MD",444632.2,49.5
+Maryland,Fallston,145804,9696,44.6,34.99,204.03,0.22,"Harford, MD",382609.5,36.6
+Maryland,Federalsburg,31532,2824,32.1,243.88,464.4,0.04,"Caroline, MD",327349.0,12.46
+Maryland,Ferndale,77613,17113,35.3,414.93,1585.33,0.13,"Anne Arundel, MD",483625.6,34.26
+Maryland,Flower Hill,97737,14213,37.0,101.54,2106.79,0.27,"Montgomery, MD",603752.0,43.43
+Maryland,Forest Glen,110724,6942,38.0,442.16,2394.27,0.34,"Montgomery, MD",603752.0,56.35
+Maryland,Forest Heights,86922,2652,37.4,105.44,4993.19,0.13,"Prince George's, MD",444632.2,27.23
+Maryland,Forestville,61973,10575,41.5,159.7,949.82,0.1,"Prince George's, MD",444632.2,22.97
+Maryland,Fort Meade,92603,11253,25.1,55.87,2709.89,0.24,"Anne Arundel, MD",483625.6,34.49
+Maryland,Fort Washington,127587,25840,44.2,54.82,625.14,0.25,"Prince George's, MD",444632.2,38.5
+Maryland,Fountainhead-Orchard Hills,84470,6113,44.8,95.1,734.93,0.24,"Washington, MD",309587.5,27.53
+Maryland,Four Corners,168393,8131,40.2,274.08,2311.79,0.32,"Montgomery, MD",603752.0,59.25
+Maryland,Frederick,82563,76376,36.9,209.33,1208.08,0.23,"Frederick County, MD",506687.18,36.96
+Maryland,Friendly,120027,10192,47.7,43.93,689.94,0.16,"Prince George's, MD",444632.2,31.85
+Maryland,Friendship Heights Village,120125,4595,49.3,1391.04,58640.57,0.22,"Montgomery, MD",603752.0,71.87
+Maryland,Frostburg,44327,7282,22.5,150.08,837.48,0.19,"Allegany, MD",140650.0,12.99
+Maryland,Fruitland,56150,5455,28.3,68.27,633.34,0.2,"Wicomico, MD",273987.5,19.11
+Maryland,Fulton,202143,5230,39.5,149.26,551.29,0.25,"Howard, MD",575125.0,55.85
+Maryland,Gaithersburg,98089,68827,37.6,354.45,2014.0,0.28,"Montgomery, MD",603752.0,49.45
+Maryland,Galesville,168750,1267,51.1,112.16,1225.03,0.09,"Anne Arundel, MD",483625.6,37.53
+Maryland,Gambrills,134821,3185,42.5,32.47,152.76,0.2,"Anne Arundel, MD",483625.6,37.62
+Maryland,Garrison,92639,9727,35.9,132.7,913.5,0.28,"Baltimore County, MD",452207.66,37.67
+Maryland,Germantown,104061,90235,36.6,177.73,1934.77,0.26,"Montgomery, MD",603752.0,44.89
+Maryland,Glassmanor,64686,17426,35.5,145.19,2827.0,0.12,"Prince George's, MD",444632.2,23.99
+Maryland,Glenarden,91467,6341,40.9,147.42,1892.33,0.17,"Prince George's, MD",444632.2,31.23
+Maryland,Glen Burnie,80458,69739,38.2,217.84,1267.05,0.17,"Anne Arundel, MD",483625.6,32.8
+Maryland,Glenmont,108093,15795,37.9,186.59,1944.06,0.23,"Montgomery, MD",603752.0,44.08
+Maryland,Glenn Dale,123690,15426,38.8,60.75,703.0,0.27,"Prince George's, MD",444632.2,39.07
+Maryland,Golden Beach,94868,3755,31.6,41.94,732.55,0.15,"Calvert, MD",432995.8,27.12
+Maryland,Grasonville,104762,3388,35.1,37.54,361.33,0.27,"Queen Anne's, MD",564519.1,40.97
+Maryland,Greenbelt,75832,24602,36.2,213.77,1375.64,0.26,"Prince George's, MD",444632.2,35.52
+Maryland,Greensboro,41667,2590,31.1,91.69,866.68,0.06,"Caroline, MD",327349.0,11.21
+Maryland,Green Valley,152689,12999,41.8,36.83,319.21,0.28,"Montgomery, MD",603752.0,49.47
+Maryland,Hagerstown,42965,43015,35.6,145.78,1376.4,0.12,"Washington, MD",309587.5,16.02
+Maryland,Halfway,64539,10259,44.6,116.44,794.81,0.12,"Washington, MD",309587.5,18.52
+Maryland,Hampstead,80385,6273,37.6,77.26,1500.56,0.28,"Carroll, MD",440079.1,34.57
+Maryland,Hampton,161680,5055,47.6,72.46,299.75,0.36,"Baltimore County, MD",531134.1,53.82
+Maryland,Hancock,43713,1622,39.1,63.21,344.07,0.04,"Washington, MD",309587.5,9.28
+Maryland,Havre de Grace,86576,14625,45.1,206.86,1699.66,0.19,"Harford, MD",382609.5,30.67
+Maryland,Hebron,61094,1108,36.9,601.76,1021.05,0.18,"Wicomico, MD",273987.5,30.38
+Maryland,Herald Harbor,136184,2590,43.7,65.6,558.86,0.35,"Anne Arundel, MD",483625.6,47.55
+Maryland,Highland,193929,1017,48.7,48.54,127.23,0.37,"Howard, MD",575125.0,60.06
+Maryland,Hillandale,137900,4844,42.6,219.48,1098.3,0.25,"Montgomery, MD",603752.0,50.03
+Maryland,Hillcrest Heights,67883,17090,36.9,194.32,2441.87,0.13,"Prince George's, MD",444632.2,26.41
+Maryland,Honeygo,128158,12169,42.7,97.18,746.11,0.24,"Baltimore County, MD",450072.19,38.98
+Maryland,Hughesville,131953,2475,49.5,32.65,83.23,0.17,"Charles, MD",433008.1,33.57
+Maryland,Huntingtown,192500,3065,43.0,63.33,139.45,0.21,"Calvert, MD",432995.8,44.82
+Maryland,Hurlock,62292,2239,38.3,54.55,437.8,0.1,"Dorchester, MD",307756.1,15.13
+Maryland,Hyattsville,84763,20790,34.0,472.0,2588.47,0.18,"Prince George's, MD",444632.2,37.44
+Maryland,Ilchester,136344,27513,35.4,81.19,867.2,0.33,"Howard, MD",575125.0,50.2
+Maryland,Indian Head,73204,3909,38.8,144.16,1166.74,0.13,"Charles, MD",433008.1,25.62
+Maryland,Jarrettsville,114554,2751,43.8,26.28,153.84,0.19,"Harford, MD",382609.5,29.82
+Maryland,Jefferson,120000,2556,38.8,91.29,404.39,0.24,"Jefferson, MD",459942.36,38.22
+Maryland,Jessup,125848,10516,36.8,88.02,553.6,0.11,"Howard, MD",575125.0,35.65
+Maryland,Joppatowne,97887,12992,42.1,117.79,792.92,0.19,"Harford, MD",382609.5,30.16
+Maryland,Keedysville,124167,1126,38.4,88.08,639.85,0.22,"Washington, MD",309587.5,31.28
+Maryland,Kemp Mill,141900,14509,39.6,177.37,1821.27,0.26,"Montgomery, MD",603752.0,50.06
+Maryland,Kensington,132132,2336,41.1,736.3,1760.49,0.32,"Montgomery, MD",603752.0,64.66
+Maryland,Kettering,97816,13924,49.1,87.04,900.45,0.21,"Prince George's, MD",444632.2,33.09
+Maryland,Kingstown,56645,1745,50.5,23.75,243.76,0.16,"Queen Anne's, MD",564519.1,28.17
+Maryland,Kingsville,108375,4681,51.0,39.27,170.5,0.23,"Baltimore County, MD",457759.54,35.15
+Maryland,Konterra,107292,2231,57.9,57.51,214.2,0.27,"Prince George's, MD",444632.2,37.19
+Maryland,Lake Arbor,110394,14376,43.5,264.59,1728.94,0.3,"Prince George's, MD",444632.2,43.91
+Maryland,Lake Shore,115104,19388,40.5,57.82,533.02,0.2,"Anne Arundel, MD",483625.6,35.44
+Maryland,Landover,64127,24508,35.3,173.69,2690.77,0.14,"Prince George's, MD",444632.2,25.99
+Maryland,Landover Hills,82083,2075,34.7,163.87,1317.92,0.12,"Prince George's, MD",444632.2,26.73
+Maryland,Langley Park,68405,20769,30.0,397.44,11401.1,0.06,"Prince George's, MD",444632.2,26.74
+Maryland,Lanham,93083,11460,38.6,131.48,1310.27,0.17,"Prince George's, MD",444632.2,30.56
+Maryland,Lansdowne,46445,9310,37.0,92.58,1226.02,0.1,"Baltimore County, MD",295469.48,13.37
+Maryland,La Plata,108043,10054,42.6,167.59,640.67,0.21,"Charles, MD",433008.1,35.31
+Maryland,Largo,88799,12003,39.8,112.03,1524.58,0.27,"Prince George's, MD",444632.2,35.7
+Maryland,Laurel,85615,29438,35.6,255.81,2758.4,0.24,"Prince George's, MD",444632.2,36.44
+Maryland,La Vale,70852,4388,46.7,64.71,285.07,0.23,"Allegany, MD",140650.0,17.76
+Maryland,Layhill,110208,5119,45.1,119.32,1285.86,0.24,"Montgomery, MD",603752.0,43.56
+Maryland,Leisure World,61078,9291,76.2,223.39,2839.24,0.25,"Montgomery, MD",603752.0,40.26
+Maryland,Leonardtown,126472,4445,32.3,165.04,483.58,0.2,"St. Mary's County, MD",475459.69,39.11
+Maryland,Lexington Park,73974,12681,31.3,195.88,1571.13,0.22,"St. Mary's County, MD",427719.77,31.71
+Maryland,Linganore,150000,10959,36.6,61.6,510.25,0.31,"Frederick, MD",468047.9,46.43
+Maryland,Linthicum,105453,10270,39.3,192.9,711.58,0.23,"Anne Arundel, MD",483625.6,39.26
+Maryland,Lochearn,68205,26995,39.9,123.71,1858.41,0.19,"Baltimore County, MD",397253.35,26.35
+Maryland,Lonaconing,46125,1160,36.7,82.18,1489.56,0.08,"Allegany, MD",140650.0,5.94
+Maryland,Long Beach,122700,2126,45.3,89.5,889.17,0.17,"Calvert, MD",432995.8,33.47
+Maryland,Lusby,86019,2457,32.3,42.77,163.19,0.1,"Calvert, MD",432995.8,22.85
+Maryland,Lutherville,129567,6755,42.9,229.0,1120.95,0.31,"Baltimore County, MD",537349.16,49.91
+Maryland,Manchester,97000,5350,40.3,94.53,1123.85,0.19,"Carroll, MD",440079.1,31.53
+Maryland,Marlboro Meadows,91852,3773,45.4,29.17,314.51,0.22,"Prince George's, MD",444632.2,31.29
+Maryland,Marlboro Village,110392,9786,37.4,106.73,1927.02,0.28,"Prince George's, MD",444632.2,39.19
+Maryland,Marlow Heights,58669,5913,42.8,158.49,950.47,0.1,"Prince George's, MD",444632.2,22.88
+Maryland,Marlton,116507,10153,42.8,45.81,719.99,0.24,"Prince George's, MD",444632.2,36.56
+Maryland,Martin's Additions,250001,1045,46.2,213.32,18577.01,0.38,"Montgomery, MD",603752.0,72.52
+Maryland,Maryland City,96036,18059,34.4,82.66,805.2,0.3,"Anne Arundel, MD",483625.6,39.14
+Maryland,Maugansville,65128,2549,49.1,68.97,689.48,0.21,"Washington, MD",309587.5,22.85
+Maryland,Mayo,135335,8197,38.0,75.38,723.5,0.27,"Anne Arundel, MD",483625.6,42.66
+Maryland,Mays Chapel,112150,12428,44.8,150.62,1248.75,0.37,"Baltimore County, MD",515202.1,48.43
+Maryland,Mechanicsville,104572,1857,41.1,51.49,147.33,0.23,"St. Mary's, MD",414602.5,33.23
+Maryland,Melwood,74297,3935,40.9,72.82,576.59,0.21,"Prince George's, MD",444632.2,29.54
+Maryland,Middle River,67306,30606,39.1,110.6,766.0,0.16,"Baltimore County, MD",395929.8,24.27
+Maryland,Middletown,141793,4893,38.2,84.18,693.4,0.3,"Frederick, MD",468047.9,44.88
+Maryland,Milford Mill,66388,30685,35.3,128.92,1616.69,0.19,"Baltimore County, MD",401210.56,26.42
+Maryland,Mitchellville,135301,12160,41.0,63.26,773.89,0.29,"Prince George's, MD",444632.2,42.37
+Maryland,Monrovia,198611,2306,39.1,129.2,562.15,0.41,"Montgomery, MD",603752.0,65.91
+Maryland,Montgomery Village,84362,34489,36.8,197.17,1961.4,0.23,"Montgomery, MD",603752.0,40.99
+Maryland,Morningside,75357,1119,43.0,68.56,393.43,0.11,"Prince George's, MD",444632.2,23.31
+Maryland,Mountain Lake Park,51438,2116,43.5,394.21,522.32,0.09,"Garrett, MD",500479.1,28.78
+Maryland,Mount Airy,136250,9621,38.9,179.23,905.18,0.29,"Carroll, MD",440079.1,44.51
+Maryland,Mount Rainier,59268,8290,40.8,405.91,4049.36,0.2,"Prince George's, MD",444632.2,34.27
+Maryland,Mount Vernon,50733,1067,51.0,778.77,1665.22,0.01,"Baltimore County, MD",342331.7,25.7
+Maryland,Myersville,130833,2427,32.1,96.02,1474.89,0.28,"Frederick, MD",468047.9,42.36
+Maryland,National Harbor,118744,4355,49.7,358.04,1230.67,0.22,"Prince George's, MD",444632.2,42.32
+Maryland,Naval Academy,103919,4729,21.4,252.2,3847.26,0.17,"Anne Arundel, MD",483625.6,36.04
+Maryland,New Carrollton,73629,13574,33.8,129.34,2438.35,0.2,"Prince George's, MD",444632.2,29.94
+Maryland,New Market,175982,1598,35.7,108.35,897.13,0.4,"Frederick, MD",468047.9,55.83
+Maryland,New Windsor,99022,1267,41.4,208.02,1657.66,0.28,"Carroll, MD",440079.1,39.93
+Maryland,North Beach,71932,2611,29.8,400.39,3900.8,0.21,"Calvert, MD",432995.8,35.85
+Maryland,North Bethesda,120261,50695,39.6,205.91,1860.35,0.29,"Montgomery, MD",603752.0,49.97
+Maryland,North East,76250,4015,33.4,166.15,1922.51,0.12,"Cecil, MD",331583.3,21.72
+Maryland,North Kensington,117708,8771,41.0,258.04,1892.38,0.3,"Montgomery, MD",603752.0,50.88
+Maryland,North Laurel,111401,24233,35.3,114.72,1208.17,0.31,"Howard, MD",575125.0,46.69
+Maryland,North Potomac,174591,24449,44.4,131.02,1249.78,0.34,"Montgomery, MD",603752.0,58.28
+Maryland,Oakland,59250,2187,42.7,169.77,205.59,0.12,"Garrett, MD",500479.1,26.15
+Maryland,Ocean City,58563,6869,56.2,215.72,369.53,0.22,"Worcester, MD",430325.8,30.61
+Maryland,Ocean Pines,80859,12266,61.3,63.72,686.25,0.23,"Worcester, MD",430325.8,30.89
+Maryland,Odenton,104891,43488,36.5,100.33,978.27,0.26,"Anne Arundel, MD",483625.6,38.58
+Maryland,Olney,161065,35815,42.4,80.17,769.37,0.33,"Montgomery, MD",603752.0,55.0
+Maryland,Overlea,71594,12959,41.7,148.32,1703.94,0.21,"Baltimore County, MD",433997.47,30.4
+Maryland,Owings,130104,2393,48.9,62.5,257.88,0.35,"Calvert, MD",432995.8,44.75
+Maryland,Owings Mills,87376,35170,34.0,130.82,1087.73,0.25,"Baltimore County, MD",484081.17,36.49
+Maryland,Oxon Hill,88273,18763,43.7,101.62,1031.79,0.19,"Prince George's, MD",444632.2,30.48
+Maryland,Paramount-Long Meadow,87604,2860,40.8,62.94,524.84,0.19,"Washington, MD",309587.5,24.58
+Maryland,Parkville,72523,30783,37.7,187.46,2664.2,0.19,"Baltimore County, MD",468489.89,31.33
+Maryland,Parole,111995,18488,52.7,110.34,585.67,0.29,"Anne Arundel, MD",483625.6,41.92
+Maryland,Pasadena,107088,31583,35.7,99.9,630.76,0.21,"Anne Arundel, MD",483625.6,35.89
+Maryland,Peppermill Village,73935,5314,39.1,122.87,2720.58,0.14,"Prince George's, MD",444632.2,26.08
+Maryland,Perry Hall,94576,29165,38.9,96.9,1479.58,0.24,"Baltimore County, MD",503725.94,37.1
+Maryland,Perryman,62269,2767,31.3,29.72,174.98,0.06,"Harford, MD",382609.5,15.37
+Maryland,Perryville,75491,4391,44.0,92.44,890.12,0.13,"Cecil, MD",331583.3,20.43
+Maryland,Pikesville,90748,33549,43.2,110.01,905.07,0.28,"Baltimore County, MD",474863.17,38.14
+Maryland,Pittsville,63347,1994,37.7,56.43,474.79,0.08,"Wicomico, MD",273987.5,12.88
+Maryland,Pleasant Hills,125833,4104,44.4,64.33,374.46,0.38,"Baltimore County, MD",480811.03,47.75
+Maryland,Pocomoke City,45781,4276,39.6,39.79,202.31,0.12,"Worcester, MD",430325.8,18.69
+Maryland,Point of Rocks,121739,2277,37.8,96.98,935.66,0.29,"Frederick, MD",468047.9,42.16
+Maryland,Poolesville,201607,5666,41.9,86.28,701.37,0.37,"Montgomery, MD",603752.0,62.68
+Maryland,Potomac,198870,46891,46.6,117.65,700.88,0.3,"Montgomery, MD",603752.0,58.85
+Maryland,Potomac Heights,61083,1115,51.4,104.51,425.28,0.14,"Charles, MD",433008.1,24.09
+Maryland,Prince Frederick,55977,2350,43.7,249.21,267.17,0.11,"Calvert, MD",432995.8,24.52
+Maryland,Princess Anne,37386,3415,25.8,88.44,940.85,0.19,"Somerset, MD",187354.1,13.01
+Maryland,Queen Anne,172931,1360,53.4,24.55,82.25,0.14,"Queen Anne's County, MD",481980.61,39.3
+Maryland,Queensland,153750,1950,47.5,34.03,170.15,0.25,"Harford, MD",382609.5,39.07
+Maryland,Randallstown,83063,35641,44.1,92.57,1219.71,0.19,"Baltimore County, MD",415301.52,28.65
+Maryland,Redland,129603,17965,40.3,106.61,887.5,0.27,"Montgomery, MD",603752.0,47.54
+Maryland,Reisterstown,73040,27917,39.8,141.53,1978.45,0.24,"Baltimore County, MD",479786.69,33.77
+Maryland,Ridgely,60000,1868,36.9,67.02,299.52,0.07,"Caroline, MD",327349.0,14.42
+Maryland,Rising Sun,75735,2749,33.0,227.02,1738.35,0.14,"Cecil, MD",331583.3,24.09
+Maryland,Riva,133875,4477,46.0,72.65,1161.6,0.32,"Anne Arundel, MD",483625.6,45.44
+Maryland,Riverdale Park,87819,7321,37.1,301.38,1322.79,0.16,"Prince George's, MD",444632.2,32.93
+Maryland,Riverside,83172,6193,34.6,155.36,1117.47,0.22,"Harford, MD",382609.5,30.23
+Maryland,Riviera Beach,101734,12012,36.8,103.45,1071.26,0.18,"Anne Arundel, MD",483625.6,33.66
+Maryland,Robinwood,75938,7662,40.4,68.05,628.2,0.14,"Washington, MD",309587.5,19.78
+Maryland,Rock Hall,50714,1397,55.1,94.9,368.28,0.17,"Kent, MD",401329.1,23.11
+Maryland,Rockville,116031,67095,39.2,242.75,1767.1,0.28,"Montgomery, MD",603752.0,49.33
+Maryland,Romancoke,93047,1667,42.1,24.87,373.46,0.22,"Queen Anne's, MD",564519.1,36.43
+Maryland,Rosaryville,134855,11881,48.5,40.68,537.61,0.25,"Prince George's, MD",444632.2,39.17
+Maryland,Rosedale,78552,20296,40.1,135.44,1252.94,0.17,"Baltimore County, MD",431074.12,28.39
+Maryland,Rossville,79118,15633,39.2,135.56,940.17,0.18,"Baltimore County, MD",427632.09,28.77
+Maryland,St. James,101446,4051,42.1,25.3,240.57,0.2,"Washington, MD",309587.5,26.12
+Maryland,St. Michaels,69057,1483,51.3,94.04,534.34,0.27,"Talbot, MD",674680.6,42.22
+Maryland,Salisbury,48310,32583,30.1,68.06,534.73,0.17,"Wicomico, MD",273987.5,16.01
+Maryland,Savage,106625,7841,39.3,115.27,1210.0,0.22,"Howard, MD",575125.0,40.25
+Maryland,Scaggsville,164632,10658,42.3,52.29,645.81,0.35,"Howard, MD",575125.0,54.82
+Maryland,Seabrook,88261,19558,35.7,142.86,2301.45,0.2,"Prince George's, MD",444632.2,31.86
+Maryland,Seat Pleasant,51122,4537,38.0,133.37,790.99,0.11,"Prince George's, MD",444632.2,21.41
+Maryland,Severn,115481,53955,35.8,109.21,1020.31,0.26,"Anne Arundel, MD",483625.6,39.96
+Maryland,Severna Park,150871,39108,41.9,306.34,749.9,0.3,"Anne Arundel, MD",483625.6,51.87
+Maryland,Shady Side,118125,4813,49.0,33.1,235.65,0.23,"Anne Arundel, MD",483625.6,37.47
+Maryland,Silver Hill,61133,5717,37.7,212.58,2042.59,0.14,"Prince George's, MD",444632.2,26.57
+Maryland,Silver Spring,91970,82472,34.5,302.29,3749.53,0.25,"Montgomery, MD",603752.0,45.74
+Maryland,Smithsburg,93295,2986,35.7,97.49,1102.65,0.18,"Washington, MD",309587.5,25.4
+Maryland,Snow Hill,50069,2442,37.5,69.63,529.69,0.13,"Worcester, MD",430325.8,20.93
+Maryland,Solomons,113235,2254,63.9,160.45,324.06,0.18,"Calvert, MD",432995.8,34.67
+Maryland,Somerset,250001,1031,50.5,6.83,1.02,0.26,"Somerset, MD",187354.1,44.36
+Maryland,South Kensington,197500,8566,44.0,142.79,1319.5,0.35,"Montgomery, MD",603752.0,62.27
+Maryland,South Laurel,77750,27998,35.6,132.61,1698.48,0.24,"Prince George's, MD",444632.2,32.66
+Maryland,Spencerville,110000,1489,34.2,54.96,346.79,0.18,"Montgomery, MD",603752.0,38.26
+Maryland,Springdale,128529,5055,41.2,70.39,1406.43,0.19,"Prince George's, MD",444632.2,35.63
+Maryland,Spring Ridge,116786,5827,35.3,79.27,827.83,0.33,"Frederick, MD",468047.9,43.4
+Maryland,Stevensville,106741,8359,41.1,58.93,427.98,0.26,"Queen Anne's, MD",564519.1,41.11
+Maryland,Suitland,64652,26375,35.8,150.05,2261.47,0.14,"Prince George's, MD",444632.2,25.26
+Maryland,Summerfield,83949,16002,36.2,170.27,1356.22,0.16,"Prince George's, MD",444632.2,29.58
+Maryland,Sykesville,120083,4260,32.9,126.83,971.78,0.35,"Carroll, MD",440079.1,45.04
+Maryland,Takoma Park,86644,17610,40.1,246.03,2560.61,0.22,"Montgomery, MD",603752.0,41.96
+Maryland,Taneytown,75167,7183,39.7,100.98,1138.71,0.18,"Carroll, MD",440079.1,28.19
+Maryland,Temple Hills,67115,9037,36.0,183.92,2634.07,0.14,"Prince George's, MD",444632.2,26.61
+Maryland,Ten Mile Creek,152176,1255,37.1,5.79,121.15,0.14,"Montgomery, MD",603752.0,40.41
+Maryland,Thurmont,82098,6247,41.4,172.03,902.34,0.14,"Frederick, MD",468047.9,29.22
+Maryland,Timonium,117574,11136,48.5,155.47,631.64,0.33,"Baltimore County, MD",489427.45,46.45
+Maryland,Towson,93435,59014,33.0,276.38,1578.6,0.33,"Baltimore County, MD",517219.69,46.27
+Maryland,Trappe,66181,1098,44.0,39.51,190.26,0.11,"Talbot County, MD",339654.88,17.15
+Maryland,Travilah,238194,11052,50.4,51.24,263.39,0.3,"Montgomery, MD",603752.0,62.72
+Maryland,University Park,159464,2701,45.5,293.27,1868.24,0.26,"Prince George's, MD",444632.2,48.55
+Maryland,Urbana,168633,12841,36.4,102.7,740.44,0.34,"Frederick, MD",468047.9,51.54
+Maryland,Waldorf,103611,79190,36.3,98.06,651.27,0.2,"Charles, MD",433008.1,32.48
+Maryland,Walker Mill,69013,10596,40.4,76.45,1054.73,0.14,"Prince George's, MD",444632.2,24.72
+Maryland,Walkersville,114340,6134,42.7,80.51,916.2,0.21,"Frederick, MD",468047.9,35.71
+Maryland,Westernport,46288,1785,38.8,86.13,863.74,0.07,"Allegany, MD",140650.0,4.98
+Maryland,West Laurel,144028,4627,41.7,58.6,852.62,0.27,"Prince George's, MD",444632.2,41.9
+Maryland,Westminster,65816,19783,37.1,106.04,1284.58,0.21,"Carroll, MD",440079.1,28.69
+Maryland,West Ocean City,84107,5287,46.4,123.58,544.47,0.21,"Worcester, MD",430325.8,31.1
+Maryland,Westphalia,149185,10578,40.6,72.71,404.19,0.29,"Prince George's, MD",444632.2,44.5
+Maryland,Wheaton,95625,51836,36.2,185.08,1820.49,0.19,"Montgomery, MD",603752.0,39.99
+Maryland,White Marsh,98003,9663,39.9,94.87,466.03,0.27,"Baltimore County, MD",462394.53,37.57
+Maryland,White Oak,70303,14711,33.2,220.14,2169.07,0.21,"Montgomery, MD",603752.0,38.34
+Maryland,Wildewood,115612,6805,34.2,199.1,27097.98,0.26,"St. Mary's, MD",414602.5,39.56
+Maryland,Willards,65461,1104,35.9,74.83,611.91,0.14,"Wicomico, MD",273987.5,16.89
+Maryland,Williamsport,50509,1952,38.5,126.67,725.12,0.08,"Washington, MD",309587.5,13.99
+Maryland,Wilson-Conococheague,54484,2069,39.2,37.27,626.97,0.08,"Washington, MD",309587.5,12.88
+Maryland,Woodlawn,82995,7819,36.2,187.54,297.26,0.09,"Baltimore County, MD",435806.67,25.43
+Maryland,Woodmore,174200,4742,50.9,39.2,282.06,0.23,"Prince George's, MD",444632.2,43.67
+Maryland,Woodsboro,123333,1242,45.7,103.0,669.79,0.14,"Frederick, MD",468047.9,33.21
+North Carolina,Aberdeen,62264,8333,36.4,40.43,345.2,0.22,"Moore, NC",426449.9,26.56
+North Carolina,Ahoskie,36271,4972,37.3,80.24,601.75,0.11,"Hertford, NC",164795.4,7.29
+North Carolina,Alamance,87788,1387,40.4,35.99,1.22,0.28,"Alamance, NC",318960.0,29.24
+North Carolina,Albemarle,43231,16318,39.6,49.32,285.17,0.13,"Albemarle, NC",277053.57,13.14
+North Carolina,Alliance,29489,1014,60.5,15.75,218.82,0.05,"Pamlico, NC",365055.0,9.94
+North Carolina,Andrews,34063,1937,47.0,215.45,513.96,0.07,"Cherokee, NC",333241.6,14.5
+North Carolina,Angier,56277,5312,39.6,77.43,634.75,0.16,"Harnett, NC",329591.4,19.41
+North Carolina,Apex,121313,58066,36.3,140.42,965.35,0.38,"Wake, NC",475596.0,48.56
+North Carolina,Archdale,59338,12117,46.1,62.72,493.49,0.13,"Randolph, NC",274370.4,15.52
+North Carolina,Asheboro,40571,26729,35.5,73.01,414.07,0.13,"Randolph, NC",274370.4,12.91
+North Carolina,Asheville,58193,93272,40.3,92.84,590.08,0.3,"Buncombe, NC",480338.7,34.73
+North Carolina,Atlantic Beach,63403,1689,59.7,50.12,186.06,0.3,"Carteret, NC",468041.2,34.16
+North Carolina,Avery Creek,104621,3273,41.0,70.51,1433.35,0.24,"Buncombe, NC",480338.7,36.79
+North Carolina,Ayden,50938,4991,41.2,26.53,258.07,0.12,"Pitt, NC",271603.3,12.84
+North Carolina,Badin,38636,1919,46.7,75.82,624.45,0.05,"Stanly, NC",308841.6,9.71
+North Carolina,Balfour,74650,1233,36.0,56.58,318.54,0.36,"Buncombe, NC",480338.7,39.35
+North Carolina,Banner Elk,58333,1350,21.5,76.83,288.12,0.24,"Avery, NC",601963.6,35.39
+North Carolina,Barker Heights,29268,1256,45.0,93.45,832.44,0.03,"Henderson, NC",440593.4,12.96
+North Carolina,Bayboro,30441,1158,45.8,44.25,409.94,0.03,"Pamlico, NC",365055.0,9.02
+North Carolina,Bayshore,96027,3076,40.3,86.51,386.22,0.33,"New Hanover, NC",463116.2,40.37
+North Carolina,Beaufort,39472,4464,51.1,4.55,1.63,0.19,"Carteret, NC",468041.2,22.94
+North Carolina,Belhaven,29630,1398,46.4,111.12,482.46,0.07,"Beaufort, NC",272787.5,9.09
+North Carolina,Belmont,76156,14442,35.7,109.41,681.36,0.29,"Gaston, NC",318724.5,30.18
+North Carolina,Belville,68333,2978,35.3,31.68,641.86,0.3,"Brunswick, NC",367760.0,30.14
+North Carolina,Belwood,43670,1143,46.1,10.87,44.69,0.07,"Cleveland, NC",247054.1,7.44
+North Carolina,Benson,52669,3871,36.1,92.09,619.97,0.15,"Johnston, NC",350573.1,19.34
+North Carolina,Bent Creek,81406,1586,42.9,39.67,305.45,0.19,"Buncombe, NC",480338.7,29.71
+North Carolina,Bermuda Run,74280,3021,57.3,134.54,1006.03,0.33,"Davie, NC",354918.7,34.44
+North Carolina,Bessemer City,41558,5452,35.6,50.62,341.16,0.06,"Gaston, NC",318724.5,10.57
+North Carolina,Bethel,45707,1849,45.1,72.13,657.03,0.12,"Pitt, NC",271603.3,13.5
+North Carolina,Bethlehem,71375,3593,50.4,45.24,159.98,0.25,"Catawba, NC",299332.6,25.1
+North Carolina,Beulaville,30938,1482,39.8,57.83,406.21,0.1,"Duplin, NC",262400.0,9.08
+North Carolina,Biltmore Forest,173750,1670,49.3,62.67,154.6,0.4,"Buncombe, NC",480338.7,55.65
+North Carolina,Biscoe,42776,3188,22.2,37.67,649.09,0.04,"Montgomery, NC",233945.4,5.24
+North Carolina,Black Mountain,68333,8386,57.5,96.3,436.51,0.37,"Buncombe, NC",480338.7,40.77
+North Carolina,Bladenboro,33942,1880,37.4,39.38,341.18,0.1,"Bladen, NC",277490.9,9.54
+North Carolina,Blowing Rock,99306,1072,61.0,93.17,134.79,0.34,"Watauga, NC",586713.5,47.25
+North Carolina,Boiling Spring Lakes,53956,5863,47.1,48.81,129.02,0.12,"Brunswick, NC",367760.0,17.5
+North Carolina,Boiling Springs,78542,4511,22.1,72.69,373.07,0.22,"Cleveland, NC",247054.1,22.14
+North Carolina,Boone,24756,18055,20.9,362.26,1034.73,0.2,"Watauga, NC",586713.5,33.96
+North Carolina,Boonville,54276,1450,37.8,50.47,365.88,0.16,"Yadkin, NC",273812.5,16.37
+North Carolina,Brevard,46058,7712,47.2,95.16,462.42,0.24,"Brevard, NC",373951.17,25.26
+North Carolina,Briar Chapel,148125,4646,37.2,2015.17,550734.8,0.37,"Chatham, NC",646886.6,100.0
+North Carolina,Brices Creek,104213,4174,43.2,11.08,192.67,0.32,"Craven, NC",310548.7,33.51
+North Carolina,Broadway,56731,1316,50.2,54.55,383.92,0.17,"Lee, NC",327266.0,19.89
+North Carolina,Brogden,36375,2430,36.6,28.04,1117.04,0.04,"Wayne, NC",260109.3,5.8
+North Carolina,Brunswick,16924,1071,34.7,12.33,0.42,0.03,"Brunswick County, NC",274394.2,2.57
+North Carolina,Bryson City,40833,1716,40.5,121.02,336.05,0.23,"Swain County, NC",403809.75,25.26
+North Carolina,Buies Creek,39336,3522,20.9,99.83,678.74,0.4,"Harnett County, NC",470262.38,37.43
+North Carolina,Burgaw,48696,3116,41.8,41.28,276.65,0.08,"Pender, NC",497906.3,19.86
+North Carolina,Burlington,47158,56563,38.8,118.75,676.36,0.2,"Alamance, NC",318960.0,21.17
+North Carolina,Burnsville,32961,2065,41.2,90.63,567.1,0.13,"Yancey, NC",422272.7,18.49
+North Carolina,Butner,63548,8295,42.4,28.5,208.49,0.18,"Granville, NC",387245.8,22.91
+North Carolina,Cajah's Mountain,46219,2695,43.3,45.18,319.57,0.1,"Caldwell, NC",298854.1,12.43
+North Carolina,Calabash,43558,2117,56.0,44.5,209.33,0.14,"Brunswick, NC",367760.0,17.84
+North Carolina,Candor,44923,1132,35.3,33.22,344.97,0.09,"Chatham, NC",646886.6,25.67
+North Carolina,Canton,47637,4373,37.0,77.7,415.88,0.06,"Haywood, NC",405765.9,15.3
+North Carolina,Cape Carteret,73654,2719,41.6,41.7,359.94,0.21,"Carteret, NC",468041.2,29.34
+North Carolina,Carolina Beach,78670,6456,51.0,205.59,943.36,0.28,"New Hanover, NC",463116.2,37.9
+North Carolina,Carolina Shores,74423,4441,66.1,47.49,732.27,0.16,"Brunswick, NC",367760.0,23.04
+North Carolina,Carrboro,76599,21237,32.6,165.81,963.93,0.26,"Orange, NC",474325.0,36.04
+North Carolina,Carthage,52339,2672,40.5,21.71,137.47,0.11,"Moore, NC",426449.9,18.48
+North Carolina,Cary,113782,171603,39.1,155.05,702.53,0.38,"Wake, NC",475596.0,47.78
+North Carolina,Cedar Point,81902,2068,44.6,61.65,364.25,0.23,"Carteret, NC",468041.2,32.21
+North Carolina,Chadbourn,27639,1602,41.9,76.93,312.02,0.06,"Columbus, NC",220818.1,5.32
+North Carolina,Chapel Hill,77037,60920,25.0,213.8,910.07,0.31,"Orange, NC",474325.0,39.57
+North Carolina,Charlotte,68367,864871,34.5,190.13,824.19,0.3,"Mecklenburg, NC",437417.0,35.9
+North Carolina,Cherokee,42583,2059,45.3,7.38,1.55,0.11,"Cherokee, NC",333241.6,13.4
+North Carolina,Cherryville,51938,6044,38.2,50.35,341.13,0.2,"Gaston, NC",318724.5,20.13
+North Carolina,China Grove,36843,4395,43.9,81.3,703.4,0.13,"Rowan, NC",263610.2,12.6
+North Carolina,Chocowinity,29548,1226,30.3,49.55,394.49,0.06,"Beaufort, NC",272787.5,6.99
+North Carolina,Claremont,56957,1894,43.1,45.19,232.58,0.14,"Catawba, NC",299332.6,16.19
+North Carolina,Clayton,63166,25486,33.9,142.27,1691.96,0.17,"Johnston, NC",350573.1,23.16
+North Carolina,Clemmons,76250,21032,41.9,143.15,811.1,0.31,"Forsyth, NC",293787.5,31.2
+North Carolina,Cleveland,54659,1111,37.5,152.75,252.54,0.22,"Rowan, NC",263610.2,21.64
+North Carolina,Clinton,34855,8124,42.5,52.95,292.83,0.15,"Sampson, NC",232106.0,11.25
+North Carolina,Clyde,58000,1702,41.5,115.88,876.54,0.1,"Haywood, NC",405765.9,20.1
+North Carolina,Coats,40125,2109,38.4,72.47,623.85,0.11,"Harnett, NC",329591.4,14.33
+North Carolina,Columbus,46779,1139,54.2,2.84,0.41,0.2,"Polk, NC",501829.1,25.86
+North Carolina,Concord,78775,102566,37.7,82.13,644.63,0.26,"Cabarrus, NC",372868.5,30.0
+North Carolina,Connelly Springs,56094,2252,41.7,22.47,147.1,0.09,"Burke, NC",279895.8,11.85
+North Carolina,Conover,47923,8393,40.7,54.27,269.36,0.15,"Catawba, NC",299332.6,15.8
+North Carolina,Cornelius,95147,30925,43.4,86.19,686.78,0.38,"Mecklenburg, NC",437417.0,42.73
+North Carolina,Cramerton,82974,5190,35.4,108.11,477.92,0.26,"Gaston, NC",318724.5,29.0
+North Carolina,Creedmoor,77716,4860,42.0,84.59,869.18,0.2,"Granville, NC",387245.8,27.48
+North Carolina,Cricket,42667,2519,28.3,31.15,316.39,0.14,"Wilkes, NC",283040.9,12.99
+North Carolina,Dallas,51136,5777,38.4,101.14,1058.52,0.1,"Gaston, NC",318724.5,15.43
+North Carolina,Davidson,141845,14644,39.5,27.77,8.89,0.44,"Mecklenburg, NC",437417.0,50.75
+North Carolina,Denton,41300,1322,39.7,74.56,272.3,0.09,"Davidson, NC",285957.5,11.2
+North Carolina,Dobson,58191,1547,39.8,154.28,371.77,0.17,"Surry, NC",241054.1,18.43
+North Carolina,Dortches,66319,1034,48.0,16.77,57.6,0.16,"Nash, NC",281344.5,17.69
+North Carolina,Drexel,60913,1692,47.6,41.58,418.77,0.11,"Burke, NC",279895.8,14.21
+North Carolina,Dunn,37409,8616,42.0,83.01,446.98,0.13,"Harnett, NC",329591.4,15.38
+North Carolina,Durham,66623,279106,34.6,154.28,981.93,0.28,"Durham, NC",410036.1,32.67
+North Carolina,East Flat Rock,51250,5751,35.1,73.38,708.03,0.08,"Henderson, NC",440593.4,18.45
+North Carolina,Eastover,58717,3657,42.5,12.9,101.63,0.15,"Cumberland, NC",244958.3,14.58
+North Carolina,East Rockingham,27976,3538,29.2,27.07,375.57,0.07,"Richmond, NC",179820.8,2.94
+North Carolina,East Spencer,40290,1243,54.9,88.48,387.24,0.11,"Rowan, NC",263610.2,12.07
+North Carolina,Eden,41746,15317,40.2,52.23,332.76,0.1,"Rockingham, NC",226220.8,9.38
+North Carolina,Edenton,42849,4456,42.3,95.51,426.44,0.17,"Chowan, NC",269750.0,15.98
+North Carolina,Elizabeth City,44759,18466,32.8,109.92,564.15,0.18,"Pasquotank, NC",284900.2,18.11
+North Carolina,Elizabethtown,21066,3187,35.5,39.83,185.05,0.12,"Bladen, NC",277490.9,9.47
+North Carolina,Elkin,54852,4051,42.1,127.75,275.12,0.19,"Surry, NC",241054.1,18.33
+North Carolina,Elm City,32216,1300,42.8,58.6,855.91,0.1,"Wilson, NC",254587.0,8.91
+North Carolina,Elon,68031,11059,21.9,171.77,855.68,0.31,"Alamance, NC",318960.0,31.22
+North Carolina,Elroy,56571,3837,38.7,15.97,256.36,0.07,"Johnston, NC",350573.1,13.36
+North Carolina,Emerald Isle,87794,3844,57.3,64.95,197.51,0.29,"Carteret, NC",468041.2,37.18
+North Carolina,Enfield,22484,2047,39.2,84.5,823.7,0.04,"Halifax, NC",172950.0,1.47
+North Carolina,Enochville,53125,3563,40.1,41.13,333.03,0.06,"Rowan, NC",263610.2,9.56
+North Carolina,Erwin,45294,4600,42.2,39.95,329.34,0.08,"Harnett, NC",329591.4,12.4
+North Carolina,Etowah,66293,7464,53.9,70.05,711.34,0.21,"Henderson, NC",440593.4,28.12
+North Carolina,Fairfield Harbour,69239,2872,64.3,57.6,396.74,0.27,"Craven, NC",310548.7,26.81
+North Carolina,Fairmont,30547,2399,49.6,29.63,305.09,0.09,"Robeson, NC",200345.8,5.68
+North Carolina,Fairplains,42512,1591,55.2,48.26,808.31,0.09,"Wilkes, NC",283040.9,10.89
+North Carolina,Fairview,67604,3475,43.6,57.32,339.92,0.26,"Buncombe, NC",480338.7,32.7
+North Carolina,Faison,43487,1024,36.6,85.97,698.71,0.12,"Duplin, NC",262400.0,12.5
+North Carolina,Faith,112500,1172,40.9,98.51,501.99,0.21,"Rowan, NC",263610.2,27.78
+North Carolina,Farmville,44766,4475,38.0,52.48,392.69,0.13,"Pitt, NC",271603.3,12.92
+North Carolina,Fayetteville,48923,208497,30.3,82.45,632.29,0.18,"Cumberland, NC",244958.3,16.19
+North Carolina,Fearrington Village,87576,2642,72.5,106.9,1107.61,0.34,"Chatham, NC",646886.6,48.67
+North Carolina,Flat Rock,42917,1135,44.9,36.46,61.67,0.09,"Henderson, NC",440593.4,16.87
+North Carolina,Fletcher,64478,7935,44.1,82.16,582.11,0.28,"Henderson, NC",440593.4,32.45
+North Carolina,Forest City,31573,7330,33.8,51.59,262.78,0.1,"Rutherford, NC",256729.1,8.63
+North Carolina,Forest Oaks,106285,4265,49.8,69.04,305.12,0.33,"Guilford, NC",307996.5,35.65
+North Carolina,Four Oaks,52159,2191,41.2,37.79,269.68,0.1,"Johnston, NC",350573.1,15.14
+North Carolina,Foxfire,66750,1720,36.9,26.6,273.95,0.21,"Moore, NC",426449.9,26.43
+North Carolina,Franklin,36158,4131,51.4,12.16,3.07,0.17,"Macon, NC",349708.3,16.8
+North Carolina,Franklinton,58472,2409,33.1,89.06,750.15,0.1,"Franklin, NC",394676.4,18.96
+North Carolina,Franklinville,40833,1375,29.5,71.18,453.13,0.02,"Randolph, NC",274370.4,6.66
+North Carolina,Fremont,43229,1114,43.5,56.55,431.48,0.09,"Wayne, NC",260109.3,10.14
+North Carolina,Fuquay-Varina,85047,33135,36.6,163.11,968.58,0.34,"Wake, NC",475596.0,42.07
+North Carolina,Garland,34773,1134,21.9,50.38,519.34,0.06,"Sampson, NC",232106.0,5.78
+North Carolina,Garner,70007,30859,36.8,137.84,789.77,0.28,"Wake, NC",475596.0,35.57
+North Carolina,Gastonia,52990,79483,38.0,77.46,538.9,0.16,"Gaston, NC",318724.5,18.76
+North Carolina,Gibsonville,89073,8684,39.7,66.07,864.11,0.23,"Guilford, NC",307996.5,26.96
+North Carolina,Glen Alpine,42885,1872,38.1,45.38,364.58,0.15,"Burke, NC",279895.8,14.48
+North Carolina,Glen Raven,55000,3824,30.8,60.17,462.93,0.15,"Alamance, NC",318960.0,17.7
+North Carolina,Goldsboro,39562,33214,36.4,72.11,395.09,0.15,"Wayne, NC",260109.3,13.3
+North Carolina,Governors Village,148482,1784,47.4,1082.6,17557.73,0.51,"Mecklenburg, NC",437417.0,79.26
+North Carolina,Graham,45152,16793,37.9,2.57,20.97,0.17,"Alamance, NC",318960.0,16.41
+North Carolina,Granite Falls,70099,4898,37.2,61.32,529.67,0.21,"Caldwell, NC",298854.1,22.35
+North Carolina,Granite Quarry,45000,2977,38.1,57.78,434.4,0.15,"Rowan, NC",263610.2,14.35
+North Carolina,Green Level,33514,3015,32.3,61.71,679.01,0.08,"Alamance, NC",318960.0,10.5
+North Carolina,Greensboro,51667,295483,34.5,87.46,617.38,0.24,"Guilford, NC",307996.5,23.15
+North Carolina,Greenville,44064,87815,26.8,139.17,892.65,0.23,"Pitt, NC",271603.3,20.82
+North Carolina,Grifton,31903,2764,42.0,16.6,210.44,0.05,"Pitt, NC",271603.3,5.65
+North Carolina,Half Moon,54550,8397,27.7,43.5,934.22,0.13,"Onslow, NC",286866.6,14.76
+North Carolina,Hamlet,32224,6098,40.6,39.94,376.4,0.09,"Richmond, NC",179820.8,5.24
+North Carolina,Harkers Island,60500,1250,53.8,47.1,169.66,0.15,"Carteret, NC",468041.2,24.57
+North Carolina,Harrisburg,124090,18415,35.9,94.72,976.12,0.35,"Cabarrus, NC",372868.5,42.02
+North Carolina,Havelock,53344,17570,23.5,31.48,290.0,0.12,"Craven, NC",310548.7,14.58
+North Carolina,Haw River,44191,2579,29.8,55.51,277.43,0.09,"Alamance, NC",318960.0,12.36
+North Carolina,Hays,39069,1247,39.9,24.02,150.51,0.1,"Wilkes, NC",283040.9,10.58
+North Carolina,Hemby Bridge,68051,1957,40.2,25.95,256.47,0.15,"Union, NC",451386.0,24.03
+North Carolina,Henderson,36147,15084,35.9,26.69,13.38,0.13,"Vance, NC",219104.1,9.24
+North Carolina,Hendersonville,46309,14878,51.9,105.65,535.17,0.23,"Henderson County, NC",371241.9,24.81
+North Carolina,Hertford,43571,2050,43.0,3.79,1.89,0.05,"Hertford County, NC",334390.29,9.64
+North Carolina,Hickory,53117,42831,38.3,97.94,494.48,0.23,"Catawba, NC",299332.6,22.61
+North Carolina,Highlands,52070,1105,60.2,36.84,60.23,0.29,"Macon, NC",349708.3,26.94
+North Carolina,High Point,54331,113148,37.6,95.63,693.25,0.23,"Guilford, NC",307996.5,22.63
+North Carolina,Hildebran,42861,1887,47.1,50.95,247.77,0.06,"Burke, NC",279895.8,9.12
+North Carolina,Hillsborough,77114,9342,44.8,116.39,1094.95,0.33,"Orange, NC",474325.0,38.99
+North Carolina,Holly Ridge,80492,3888,35.6,67.21,1107.25,0.26,"Onslow, NC",286866.6,26.92
+North Carolina,Holly Springs,120229,40198,35.5,162.43,1098.27,0.38,"Wake, NC",475596.0,48.7
+North Carolina,Hope Mills,49802,17421,31.7,68.63,846.78,0.16,"Cumberland, NC",244958.3,14.53
+North Carolina,Hudson,50040,3768,39.6,90.72,344.94,0.15,"Caldwell, NC",298854.1,16.73
+North Carolina,Huntersville,102335,60166,39.1,80.55,548.37,0.35,"Mecklenburg, NC",437417.0,41.63
+North Carolina,Icard,43167,1740,43.8,40.27,214.93,0.04,"Burke, NC",279895.8,7.79
+North Carolina,Indian Trail,88673,39603,35.4,66.2,528.28,0.26,"Union, NC",451386.0,34.24
+North Carolina,Jacksonville,47483,73224,23.2,62.15,485.33,0.17,"Onslow, NC",286866.6,16.43
+North Carolina,James City,63722,5379,39.7,28.88,195.63,0.14,"James City, NC",340319.11,18.66
+North Carolina,Jamestown,72188,3700,48.7,80.59,578.97,0.26,"Guilford, NC",307996.5,27.12
+North Carolina,Jefferson,31290,1630,50.1,72.76,378.89,0.08,"Ashe, NC",385613.6,13.61
+North Carolina,Jonesville,25759,2549,43.8,66.9,327.94,0.03,"Yadkin, NC",273812.5,5.06
+North Carolina,Kannapolis,58084,52173,36.9,80.72,559.6,0.17,"Cabarrus, NC",372868.5,21.74
+North Carolina,Kenly,31827,2301,36.3,101.06,1134.32,0.05,"Johnston, NC",350573.1,10.78
+North Carolina,Kernersville,60718,26376,40.4,99.76,660.26,0.23,"Forsyth, NC",293787.5,23.18
+North Carolina,Kill Devil Hills,62721,7541,47.4,127.6,549.55,0.26,"Dare, NC",598988.4,38.69
+North Carolina,King,59286,7258,47.9,62.34,353.49,0.15,"Stokes, NC",301527.5,18.08
+North Carolina,Kings Grant,58636,9071,38.1,56.02,736.46,0.16,"New Hanover, NC",463116.2,24.9
+North Carolina,Kings Mountain,42336,10775,41.4,55.38,367.87,0.12,"Cleveland, NC",247054.1,11.27
+North Carolina,Kinston,33280,19888,44.6,40.02,280.43,0.09,"Lenoir, NC",225261.9,7.35
+North Carolina,Kitty Hawk,80172,3664,50.0,47.21,177.76,0.24,"Dare, NC",598988.4,37.89
+North Carolina,Knightdale,72118,18614,36.0,159.06,1046.58,0.27,"Wake, NC",475596.0,35.85
+North Carolina,Kure Beach,89828,2474,53.7,205.3,1463.73,0.25,"New Hanover, NC",463116.2,38.05
+North Carolina,La Grange,64184,2641,43.9,37.33,392.77,0.15,"Lenoir, NC",225261.9,14.89
+North Carolina,Lake Junaluska,74417,3023,47.5,57.19,254.6,0.27,"Haywood, NC",405765.9,31.14
+North Carolina,Lake Norman of Catawba,89004,8441,48.1,29.38,286.72,0.3,"Catawba, NC",299332.6,29.8
+North Carolina,Lake Norman of Iredell,162143,12499,46.8,29.38,424.56,0.43,"Iredell, NC",394698.0,51.41
+North Carolina,Lake Park,68733,3317,40.0,130.45,1386.91,0.25,"Mecklenburg, NC",437417.0,32.02
+North Carolina,Lake Royale,92917,3199,42.2,49.59,292.69,0.14,"Franklin, NC",394676.4,24.95
+North Carolina,Lake Waccamaw,57188,1501,53.3,5.97,46.2,0.19,"Columbus, NC",220818.1,15.64
+North Carolina,Landis,72155,3610,35.9,55.73,352.31,0.17,"Rowan, NC",263610.2,19.16
+North Carolina,Laurel Hill,25741,1125,40.5,60.38,3773.86,0.09,"Scotland, NC",204780.0,5.92
+North Carolina,Laurel Park,80250,2663,59.3,60.26,284.54,0.33,"Henderson, NC",440593.4,37.34
+North Carolina,Laurinburg,35776,15242,38.2,37.53,294.71,0.12,"Scotland, NC",204780.0,8.08
+North Carolina,Leland,78884,22794,46.3,36.16,925.1,0.26,"Brunswick, NC",367760.0,29.16
+North Carolina,Lenoir,42411,18205,42.6,6.52,15.92,0.13,"Caldwell, NC",298854.1,12.79
+North Carolina,Lewisville,85660,13413,40.7,50.49,286.21,0.34,"Forsyth, NC",293787.5,32.07
+North Carolina,Lexington,32698,19347,38.3,70.27,337.33,0.1,"Davidson, NC",285957.5,10.66
+North Carolina,Liberty,41657,2660,42.7,110.82,372.66,0.08,"Randolph, NC",274370.4,11.37
+North Carolina,Lillington,52643,4389,35.5,46.28,242.7,0.13,"Harnett, NC",329591.4,16.16
+North Carolina,Lincolnton,38920,10926,34.9,90.03,474.51,0.13,"Lincoln, NC",413323.7,19.07
+North Carolina,Locust,54617,4275,47.1,34.19,165.52,0.16,"Stanly, NC",308841.6,17.76
+North Carolina,Long View,40976,4764,40.7,59.64,478.31,0.05,"Burke, NC",279895.8,8.29
+North Carolina,Louisburg,23169,2952,27.4,102.79,332.71,0.07,"Franklin, NC",394676.4,12.32
+North Carolina,Lowell,44375,3650,41.2,64.9,457.32,0.1,"Gaston, NC",318724.5,13.49
+North Carolina,Lowesville,110761,3258,44.3,28.52,212.13,0.17,"Lincoln, NC",413323.7,29.62
+North Carolina,Lumberton,38514,19186,35.9,38.67,217.49,0.12,"Robeson, NC",200345.8,8.31
+North Carolina,McAdenville,104205,1019,42.2,95.44,520.09,0.37,"Gaston, NC",318724.5,38.41
+North Carolina,McLeansville,65706,1040,56.2,22.87,74.55,0.06,"Guilford, NC",307996.5,12.65
+North Carolina,Madison,45160,2244,50.3,4.24,1.79,0.1,"Rockingham, NC",226220.8,8.58
+North Carolina,Maggie Valley,54125,2429,55.1,33.64,148.57,0.23,"Haywood, NC",405765.9,25.93
+North Carolina,Magnolia,43750,1059,38.6,68.07,487.06,0.05,"Duplin, NC",262400.0,8.1
+North Carolina,Maiden,63750,3657,43.0,51.37,328.41,0.11,"Catawba, NC",299332.6,15.75
+North Carolina,Manteo,59524,1769,50.3,218.82,701.24,0.29,"Dare, NC",598988.4,42.04
+North Carolina,Marion,41580,7703,40.5,66.62,418.24,0.12,"McDowell, NC",372760.1,16.66
+North Carolina,Mar-Mac,40515,2576,33.8,29.59,228.93,0.15,"Wayne, NC",260109.3,12.44
+North Carolina,Mars Hill,67125,2802,25.4,44.44,482.66,0.29,"Madison, NC",491187.5,33.93
+North Carolina,Marshville,44861,2533,34.1,163.35,412.12,0.06,"Union, NC",451386.0,18.78
+North Carolina,Marvin,221350,6326,41.4,125.86,681.68,0.44,"Union, NC",451386.0,64.44
+North Carolina,Matthews,96195,29417,39.5,120.79,567.46,0.4,"Mecklenburg, NC",437417.0,44.54
+North Carolina,Maxton,21318,2224,34.9,29.0,219.4,0.08,"Robeson, NC",200345.8,3.73
+North Carolina,Mayodan,31546,2428,50.5,131.21,712.69,0.08,"Rockingham, NC",226220.8,8.69
+North Carolina,Maysville,52656,1002,37.3,546.98,486.74,0.04,"Jones, NC",214416.6,17.63
+North Carolina,Mebane,69947,17192,35.8,88.22,669.05,0.25,"Alamance, NC",318960.0,26.27
+North Carolina,Middlesex,36375,1141,34.0,87.08,645.16,0.12,"Middlesex, NC",260795.79,11.85
+North Carolina,Midland,95687,4519,37.6,15.98,102.6,0.22,"Cabarrus, NC",372868.5,28.58
+North Carolina,Midway,63468,4743,48.1,45.02,299.92,0.2,"Davidson, NC",285957.5,20.3
+North Carolina,Millers Creek,36917,1360,61.7,33.86,166.84,0.05,"Wilkes, NC",283040.9,8.0
+North Carolina,Mills River,68735,7082,46.3,33.58,90.83,0.26,"Henderson, NC",440593.4,30.49
+North Carolina,Mineral Springs,85563,3129,47.6,57.22,120.16,0.24,"Union, NC",451386.0,32.63
+North Carolina,Mint Hill,84468,26236,46.2,54.43,440.09,0.27,"Mecklenburg, NC",437417.0,33.91
+North Carolina,Mocksville,41905,5714,35.2,132.35,289.19,0.15,"Davie, NC",354918.7,19.26
+North Carolina,Monroe,58180,34464,35.9,78.87,306.58,0.15,"Union, NC",451386.0,23.67
+North Carolina,Mooresville,75141,48431,35.9,117.32,967.79,0.31,"Iredell, NC",394698.0,34.35
+North Carolina,Moravian Falls,47188,1495,58.3,33.49,143.87,0.14,"Wilkes, NC",283040.9,14.43
+North Carolina,Morehead City,47058,9535,45.3,134.89,592.72,0.22,"Carteret, NC",468041.2,28.8
+North Carolina,Morganton,43103,17389,37.6,57.63,279.7,0.14,"Burke, NC",279895.8,13.99
+North Carolina,Morrisville,106891,28824,34.1,218.26,1061.24,0.39,"Wake, NC",475596.0,49.05
+North Carolina,Mountain View,66136,3486,41.6,25.37,253.37,0.08,"Catawba, NC",299332.6,13.83
+North Carolina,Mount Airy,33773,10547,45.4,71.87,359.09,0.14,"Surry, NC",241054.1,11.71
+North Carolina,Mount Gilead,36336,1085,49.0,23.54,165.83,0.07,"Montgomery, NC",233945.4,6.55
+North Carolina,Mount Holly,64742,17315,37.4,80.08,794.14,0.24,"Gaston, NC",318724.5,25.02
+North Carolina,Mount Olive,40392,4155,42.4,92.68,510.71,0.1,"Wayne, NC",260109.3,11.34
+North Carolina,Mount Pleasant,55781,1981,42.9,101.61,617.45,0.11,"Cabarrus, NC",372868.5,18.67
+North Carolina,Moyock,99385,4966,38.8,101.55,250.76,0.17,"Currituck, NC",517697.6,33.9
+North Carolina,Mulberry,51471,2215,54.1,26.35,170.66,0.1,"Wilkes, NC",283040.9,12.39
+North Carolina,Murfreesboro,45735,2585,34.2,55.76,556.5,0.15,"Hertford County, NC",321353.7,16.49
+North Carolina,Murphy,32486,1659,40.9,86.47,211.58,0.22,"Cherokee, NC",333241.6,20.31
+North Carolina,Murraysville,64271,15976,36.6,146.82,816.72,0.27,"New Hanover, NC",463116.2,34.24
+North Carolina,Myrtle Grove,99162,11672,40.9,61.82,620.4,0.3,"New Hanover, NC",463116.2,38.6
+North Carolina,Nags Head,74256,3096,55.6,51.86,85.81,0.39,"Dare, NC",598988.4,46.47
+North Carolina,Nashville,56359,5626,39.4,73.06,727.5,0.19,"Nash, NC",281344.5,19.38
+North Carolina,Navassa,44722,1735,33.5,9.8,82.15,0.08,"Brunswick, NC",367760.0,12.94
+North Carolina,Neuse Forest,79263,2267,32.1,16.41,323.54,0.24,"Craven, NC",310548.7,24.81
+North Carolina,New Bern,45829,31058,40.5,58.45,481.64,0.15,"Craven, NC",310548.7,16.35
+North Carolina,Newport,61000,4356,40.7,10.87,151.81,0.13,"Carteret, NC",468041.2,22.55
+North Carolina,Newton,55391,13081,44.1,54.85,334.5,0.16,"Catawba, NC",299332.6,17.61
+North Carolina,Norlina,32978,1071,45.2,68.22,487.08,0.15,"Warren, NC",350333.3,16.44
+North Carolina,Northchase,49348,5564,30.3,1348.47,242029.07,0.31,"New Hanover, NC",463116.2,60.58
+North Carolina,Northlakes,85647,1185,52.4,35.47,293.91,0.32,"Catawba, NC",299332.6,30.99
+North Carolina,North Wilkesboro,40750,4247,41.4,57.88,275.56,0.13,"Wilkes, NC",283040.9,13.51
+North Carolina,Norwood,53014,2648,40.3,25.7,229.93,0.14,"Stanly, NC",308841.6,15.66
+North Carolina,Oakboro,69125,2319,40.7,49.44,351.71,0.15,"Stanly, NC",308841.6,19.09
+North Carolina,Oak Island,85802,8252,60.3,26.77,226.3,0.25,"Brunswick, NC",367760.0,29.71
+North Carolina,Oak Ridge,132298,7461,44.8,37.91,169.05,0.35,"Guilford, NC",307996.5,39.51
+North Carolina,Ogden,104824,8613,45.3,57.6,670.37,0.39,"New Hanover, NC",463116.2,44.59
+North Carolina,Oxford,39399,8658,44.9,56.39,455.42,0.15,"Granville, NC",387245.8,18.46
+North Carolina,Pembroke,22273,2865,21.9,40.01,453.08,0.13,"Robeson, NC",200345.8,6.64
+North Carolina,Pilot Mountain,35000,1747,45.6,87.32,298.53,0.12,"Surry, NC",241054.1,11.13
+North Carolina,Pinebluff,65368,1693,39.1,20.14,312.88,0.19,"Moore, NC",426449.9,24.96
+North Carolina,Pinehurst,92342,17250,58.7,40.3,306.26,0.36,"Moore, NC",426449.9,39.59
+North Carolina,Pine Knoll Shores,89861,1288,64.4,51.78,210.39,0.32,"Carteret, NC",468041.2,38.83
+North Carolina,Pine Level,60139,2269,34.5,64.43,891.36,0.1,"Johnston, NC",350573.1,16.88
+North Carolina,Pinetops,41225,1270,39.9,464.0,605.01,0.11,"Edgecombe, NC",145061.9,15.61
+North Carolina,Pineville,53199,10317,33.6,223.61,568.51,0.31,"Mecklenburg, NC",437417.0,35.63
+North Carolina,Piney Green,59618,15149,27.0,47.65,555.25,0.17,"Onslow, NC",286866.6,17.97
+North Carolina,Pittsboro,49745,4433,40.1,63.47,257.9,0.21,"Chatham, NC",646886.6,34.36
+North Carolina,Pleasant Garden,85000,4990,53.8,33.26,113.68,0.16,"Guilford, NC",307996.5,21.57
+North Carolina,Plymouth,20943,3315,47.0,81.67,313.34,0.04,"Washington, NC",153300.0,0.34
+North Carolina,Polkton,52656,2670,38.6,71.44,400.74,0.04,"Anson, NC",222777.7,7.19
+North Carolina,Princeton,31195,1472,34.3,81.29,886.35,0.05,"Johnston, NC",350573.1,10.44
+North Carolina,Princeville,37465,1648,39.2,34.68,439.62,0.08,"Edgecombe, NC",145061.9,3.55
+North Carolina,Pumpkin Center,56359,1959,32.0,56.9,705.53,0.17,"Lincoln, NC",413323.7,22.77
+North Carolina,Raeford,35042,4743,38.7,86.94,482.29,0.14,"Hoke, NC",305687.0,14.31
+North Carolina,Raleigh,72996,462219,34.2,188.73,905.99,0.33,"Wake, NC",475596.0,39.95
+North Carolina,Ramseur,25300,1701,30.4,96.58,376.81,0.05,"Randolph, NC",274370.4,6.72
+North Carolina,Randleman,53892,4550,31.0,91.62,629.69,0.1,"Randolph, NC",274370.4,13.32
+North Carolina,Ranlo,71761,4395,33.8,43.32,902.23,0.12,"Gaston, NC",318724.5,18.0
+North Carolina,Red Oak,70673,3329,53.1,13.55,71.71,0.21,"Nash, NC",281344.5,21.52
+North Carolina,Red Springs,22574,3139,38.8,35.5,319.26,0.15,"Robeson, NC",200345.8,7.83
+North Carolina,Reidsville,34221,14463,45.4,66.64,318.62,0.14,"Rockingham, NC",226220.8,11.14
+North Carolina,Richlands,54231,2721,27.7,204.62,606.5,0.12,"Onslow, NC",286866.6,17.58
+North Carolina,River Bend,72102,2933,56.7,40.48,511.75,0.22,"Craven, NC",310548.7,24.08
+North Carolina,River Road,43867,3244,48.1,23.29,199.88,0.12,"Cumberland, NC",244958.3,10.93
+North Carolina,Roanoke Rapids,43704,15294,38.8,106.17,692.75,0.13,"Halifax, NC",172950.0,10.09
+North Carolina,Robbins,43295,1579,24.9,50.98,649.14,0.02,"Moore, NC",426449.9,12.12
+North Carolina,Robersonville,36250,1506,55.9,78.33,450.24,0.07,"Martin, NC",110888.8,2.7
+North Carolina,Rockfish,57423,3220,38.0,22.21,273.0,0.15,"Cumberland, NC",244958.3,14.21
+North Carolina,Rockingham,33351,9200,41.4,18.48,6.3,0.15,"Rockingham, NC",226220.8,10.5
+North Carolina,Rockwell,52500,2293,38.2,112.53,537.54,0.21,"Rowan, NC",263610.2,19.87
+North Carolina,Rocky Mount,46396,54375,41.0,76.5,398.87,0.15,"Nash, NC",281344.5,15.51
+North Carolina,Rolesville,127575,8995,38.1,79.89,378.99,0.37,"Wake, NC",475596.0,47.76
+North Carolina,Rose Hill,39750,1811,35.6,65.91,487.18,0.05,"Duplin, NC",262400.0,7.8
+North Carolina,Rowland,30333,1084,50.8,88.24,617.1,0.1,"Robeson, NC",200345.8,7.55
+North Carolina,Roxboro,33883,8097,39.8,43.01,303.91,0.12,"Person, NC",278325.9,11.31
+North Carolina,Royal Pines,93909,4606,47.8,77.41,770.05,0.28,"Buncombe, NC",480338.7,38.17
+North Carolina,Rural Hall,60208,3332,47.6,80.72,450.5,0.14,"Forsyth, NC",293787.5,17.21
+North Carolina,Rutherford College,52778,1112,49.7,250.2,180.78,0.23,"Burke, NC",279895.8,24.89
+North Carolina,Rutherfordton,50901,3668,43.2,58.7,282.19,0.28,"Rutherford County, NC",424744.92,29.26
+North Carolina,St. James,115040,6199,67.7,39.52,288.86,0.37,"Brunswick, NC",367760.0,41.02
+North Carolina,St. Pauls,33063,2077,40.5,80.19,699.81,0.06,"Robeson, NC",200345.8,4.88
+North Carolina,St. Stephens,54375,9396,41.7,33.7,311.95,0.17,"Catawba, NC",299332.6,17.36
+North Carolina,Salem,54750,1573,47.4,31.23,209.91,0.15,"Forsyth, NC",293787.5,16.13
+North Carolina,Salisbury,44656,35258,35.8,117.18,430.07,0.17,"Rowan, NC",263610.2,16.64
+North Carolina,Sanford,51311,30024,34.5,44.22,345.63,0.15,"Lee, NC",327266.0,16.92
+North Carolina,Sawmills,61973,5053,46.0,26.56,253.19,0.08,"Caldwell, NC",298854.1,13.1
+North Carolina,Saxapahaw,47792,1214,43.9,32.04,79.37,0.13,"Alamance, NC",318960.0,15.07
+North Carolina,Scotland Neck,15985,2033,43.1,65.82,564.64,0.04,"Halifax, NC",172950.0,0.3
+North Carolina,Sea Breeze,65219,1632,50.4,47.34,369.69,0.22,"Brunswick, NC",367760.0,25.1
+North Carolina,Selma,25421,6317,33.4,51.81,453.97,0.07,"Johnston, NC",350573.1,10.14
+North Carolina,Seven Lakes,88414,3919,65.7,28.13,134.77,0.33,"Moore, NC",426449.9,36.98
+North Carolina,Shallotte,63938,4059,44.2,43.13,166.43,0.15,"Brunswick, NC",367760.0,20.68
+North Carolina,Sharpsburg,30521,1543,35.7,77.18,630.07,0.15,"Nash, NC",281344.5,13.47
+North Carolina,Shelby,41565,21564,45.8,73.71,288.59,0.16,"Cleveland, NC",247054.1,14.07
+North Carolina,Siler City,40440,7742,35.5,100.0,645.15,0.08,"Chatham, NC",646886.6,25.93
+North Carolina,Silver Lake,74785,5690,41.7,80.45,395.63,0.26,"New Hanover, NC",463116.2,33.68
+North Carolina,Skippers Corner,51639,3514,35.6,30.93,662.74,0.11,"Pender, NC",497906.3,21.57
+North Carolina,Smithfield,33957,11168,45.5,73.65,323.08,0.19,"Johnston, NC",350573.1,19.03
+North Carolina,Sneads Ferry,37028,2236,50.3,35.75,237.2,0.14,"Onslow, NC",286866.6,13.2
+North Carolina,Snow Hill,31016,2054,35.2,38.85,338.15,0.08,"Greene, NC",203527.7,5.02
+North Carolina,Southern Pines,69792,15156,38.3,47.03,315.12,0.29,"Moore, NC",426449.9,32.34
+North Carolina,Southern Shores,104625,3069,60.0,57.58,307.34,0.26,"Dare, NC",598988.4,42.8
+North Carolina,South Henderson,32528,1056,37.3,55.22,373.78,0.05,"Vance, NC",219104.1,4.8
+North Carolina,Southport,68301,3842,63.2,140.9,718.89,0.22,"Brunswick, NC",367760.0,27.98
+North Carolina,South Rosemary,25423,2557,35.9,27.75,171.38,0.13,"Edgecombe, NC",145061.9,4.61
+North Carolina,Sparta,34073,1924,48.2,49.12,323.67,0.07,"Alleghany, NC",425104.1,14.48
+North Carolina,Spencer,56882,3296,40.5,104.78,456.83,0.11,"Rowan, NC",263610.2,14.6
+North Carolina,Spindale,35295,4153,46.9,38.59,273.97,0.14,"Rutherford, NC",256729.1,11.58
+North Carolina,Springdale,55515,1320,38.1,62.82,4364.02,0.1,"Cumberland, NC",244958.3,12.02
+North Carolina,Spring Hope,31310,1484,47.2,72.44,511.87,0.06,"Nash, NC",281344.5,8.2
+North Carolina,Spring Lake,39659,11629,24.8,71.17,811.37,0.19,"Cumberland, NC",244958.3,15.06
+North Carolina,Spruce Pine,44375,2332,45.3,44.52,231.22,0.12,"Mitchell, NC",348175.0,15.24
+North Carolina,Stallings,97630,15932,39.4,96.9,1223.26,0.33,"Union, NC",451386.0,40.72
+North Carolina,Stanfield,76667,1453,39.4,26.06,101.5,0.11,"Stanly, NC",308841.6,17.44
+North Carolina,Stanley,56847,3911,38.1,82.3,579.96,0.15,"Gaston, NC",318724.5,18.5
+North Carolina,Star,35313,1351,37.5,41.18,505.78,0.12,"Montgomery, NC",233945.4,9.55
+North Carolina,Statesville,43497,27777,38.9,88.98,462.15,0.19,"Iredell, NC",394698.0,22.2
+North Carolina,Stedman,86875,1856,36.6,34.07,397.68,0.21,"Cumberland, NC",244958.3,22.33
+North Carolina,Stem,74609,1161,30.3,53.13,920.6,0.21,"Granville, NC",387245.8,26.24
+North Carolina,Stokesdale,97337,5895,39.1,29.23,120.83,0.22,"Guilford, NC",307996.5,26.48
+North Carolina,Stoneville,48125,1174,38.1,87.91,340.6,0.1,"Rockingham, NC",226220.8,10.64
+North Carolina,Stony Point,57278,1558,31.7,27.09,185.09,0.07,"Gaston, NC",318724.5,12.63
+North Carolina,Summerfield,127661,11026,45.6,41.09,158.74,0.35,"Guilford, NC",307996.5,39.09
+North Carolina,Sunset Beach,67083,4091,64.4,25.83,150.31,0.3,"Brunswick, NC",367760.0,30.39
+North Carolina,Surf City,77202,3637,39.9,51.11,195.68,0.29,"Pender, NC",497906.3,36.28
+North Carolina,Swannanoa,47633,4589,36.8,62.92,375.47,0.15,"Buncombe, NC",480338.7,23.59
+North Carolina,Swansboro,78919,3605,41.0,100.88,822.79,0.24,"Onslow, NC",286866.6,26.04
+North Carolina,Swepsonville,72171,2394,38.4,49.58,447.89,0.21,"Alamance, NC",318960.0,23.46
+North Carolina,Sylva,38881,2611,30.3,84.36,242.06,0.22,"Jackson, NC",501091.6,27.62
+North Carolina,Tabor City,34828,3736,40.2,51.11,413.32,0.05,"Columbus, NC",220818.1,4.66
+North Carolina,Tarboro,41281,10733,48.0,68.73,409.34,0.16,"Edgecombe, NC",145061.9,10.15
+North Carolina,Taylorsville,43545,2332,41.9,81.87,352.91,0.13,"Alexander, NC",310054.5,15.22
+North Carolina,Thomasville,45610,26941,36.7,89.7,519.6,0.09,"Davidson, NC",285957.5,12.23
+North Carolina,Toast,30417,1271,41.0,54.76,486.75,0.1,"Surry, NC",241054.1,8.51
+North Carolina,Tobaccoville,64917,2582,44.3,14.23,70.65,0.16,"Forsyth, NC",293787.5,17.51
+North Carolina,Trent Woods,104500,4052,50.6,42.42,453.53,0.27,"Craven, NC",310548.7,31.06
+North Carolina,Trinity,64676,6981,44.0,35.69,137.05,0.12,"Randolph, NC",274370.4,14.87
+North Carolina,Troutman,73382,3568,33.9,128.18,520.88,0.25,"Iredell, NC",394698.0,30.81
+North Carolina,Troy,39554,2973,43.3,28.85,188.92,0.12,"Montgomery, NC",233945.4,9.96
+North Carolina,Tryon,42589,1334,66.4,114.11,300.23,0.32,"Polk, NC",501829.1,35.39
+North Carolina,Unionville,85477,6634,41.6,43.26,83.28,0.23,"Union County, NC",418093.73,30.12
+North Carolina,Valdese,63068,4647,46.7,46.62,282.8,0.12,"Burke, NC",279895.8,15.54
+North Carolina,Valley Hill,97781,2262,57.9,59.2,265.72,0.2,"Henderson, NC",440593.4,31.53
+North Carolina,Vanceboro,34844,1112,39.9,369.64,356.19,0.08,"Craven, NC",310548.7,17.13
+North Carolina,Vander,57639,1341,48.8,21.21,158.93,0.07,"Cumberland, NC",244958.3,9.49
+North Carolina,Vass,51071,1087,30.0,30.91,208.67,0.11,"Moore, NC",426449.9,18.22
+North Carolina,Wadesboro,26878,5079,37.8,31.46,222.54,0.11,"Anson, NC",222777.7,7.28
+North Carolina,Wake Forest,104006,46387,38.6,141.7,716.4,0.35,"Wake, NC",475596.0,44.81
+North Carolina,Walkertown,52321,5626,42.4,39.8,349.89,0.19,"Forsyth, NC",293787.5,18.5
+North Carolina,Wallace,40925,3401,45.1,68.19,444.28,0.13,"Duplin, NC",262400.0,13.01
+North Carolina,Wallburg,83011,3058,49.2,35.37,132.23,0.31,"Davidson, NC",285957.5,29.65
+North Carolina,Walnut Cove,38906,2419,39.3,58.82,355.69,0.08,"Stokes, NC",301527.5,10.57
+North Carolina,Walnut Creek,150938,1449,47.2,13.54,326.87,0.37,"Wayne, NC",260109.3,40.76
+North Carolina,Wanchese,66581,1936,37.2,43.13,331.34,0.23,"Dare, NC",598988.4,35.2
+North Carolina,Warsaw,29987,2751,34.5,42.66,322.37,0.04,"Duplin, NC",262400.0,5.07
+North Carolina,Washington,38843,9754,46.3,4.75,9.84,0.15,"Beaufort, NC",272787.5,12.94
+North Carolina,Waynesville,41131,10087,47.6,66.81,350.07,0.18,"Haywood, NC",405765.9,21.3
+North Carolina,Weaverville,71538,4476,50.5,109.68,583.74,0.25,"Buncombe, NC",480338.7,34.09
+North Carolina,Weddington,152377,12851,43.9,48.69,258.24,0.41,"Union, NC",451386.0,51.83
+North Carolina,Welcome,52614,3383,44.1,52.42,141.41,0.11,"Davidson, NC",285957.5,13.4
+North Carolina,Weldon,34375,1524,40.8,47.88,242.44,0.13,"Halifax, NC",172950.0,7.46
+North Carolina,Wendell,67321,9847,37.5,213.01,1736.33,0.19,"Wake, NC",475596.0,31.5
+North Carolina,Wentworth,64596,2655,44.3,21.9,54.79,0.09,"Rockingham, NC",226220.8,10.72
+North Carolina,Wesley Chapel,124716,8661,41.3,49.25,585.18,0.28,"Union, NC",451386.0,39.9
+North Carolina,West Canton,25800,1326,45.4,61.3,568.39,0.07,"Haywood, NC",405765.9,12.78
+North Carolina,West Jefferson,28958,1446,43.4,69.97,319.16,0.08,"Ashe, NC",385613.6,13.17
+North Carolina,Westport,122768,4250,48.3,31.14,357.7,0.31,"Brunswick, NC",367760.0,38.24
+North Carolina,Whispering Pines,91814,4759,35.0,19.74,381.83,0.37,"Moore, NC",426449.9,39.2
+North Carolina,White Plains,50714,1043,44.6,23.06,97.39,0.1,"Surry, NC",241054.1,10.62
+North Carolina,Whiteville,32222,4826,37.8,67.27,313.38,0.16,"Columbus, NC",220818.1,11.29
+North Carolina,Wilkesboro,40602,3578,43.0,67.31,210.89,0.17,"Wilkes, NC",283040.9,16.12
+North Carolina,Williamston,38322,5221,42.8,91.41,447.28,0.11,"Martin, NC",110888.8,5.78
+North Carolina,Wilmington,54066,115976,37.4,118.22,812.7,0.28,"New Hanover, NC",463116.2,32.77
+North Carolina,Wilson,46146,47914,38.1,23.68,47.97,0.14,"Wilson County, NC",311547.2,15.09
+North Carolina,Wilson's Mills,53690,2506,26.7,34.21,312.84,0.1,"Johnston, NC",350573.1,15.01
+North Carolina,Windsor,36727,3401,42.3,22.74,175.37,0.1,"Bertie, NC",190545.1,6.63
+North Carolina,Wingate,55909,3830,21.9,172.51,918.94,0.16,"Union, NC",451386.0,26.34
+North Carolina,Winston-Salem,50204,247917,35.9,91.04,589.12,0.2,"Forsyth, NC",293787.5,19.96
+North Carolina,Winterville,80199,10336,39.4,52.0,692.66,0.26,"Pitt, NC",271603.3,25.47
+North Carolina,Woodfin,52732,7771,42.7,53.32,298.72,0.24,"Buncombe, NC",480338.7,29.39
+North Carolina,Wrightsboro,56563,4654,42.1,34.42,176.02,0.14,"New Hanover, NC",463116.2,22.61
+North Carolina,Wrightsville Beach,111346,2593,47.2,95.4,324.62,0.48,"New Hanover, NC",463116.2,51.97
+North Carolina,Yadkinville,43722,2801,37.7,77.99,351.18,0.08,"Yadkin, NC",273812.5,10.89
+North Carolina,Yanceyville,23962,2848,46.9,32.06,297.4,0.07,"Caswell, NC",237800.0,5.16
+North Carolina,Youngsville,59974,2503,29.7,57.6,514.9,0.15,"Franklin, NC",394676.4,21.37
+North Carolina,Zebulon,44389,6958,40.2,124.69,766.4,0.17,"Wake, NC",475596.0,25.09
+Virginia,Abingdon,54384,8350,45.0,65.2,364.38,0.19,"Washington, VA",290093.7,19.39
+Virginia,Adwolf,33241,1646,48.2,8.63,73.21,0.11,"Smyth, VA",188908.3,6.28
+Virginia,Alexandria,105450,158185,37.1,345.89,3420.51,0.31,"Alexandria, VA",603233.3,51.99
+Virginia,Altavista,35438,3396,41.8,149.6,301.5,0.19,"Campbell, VA",292775.0,18.36
+Virginia,Amelia Court House,45146,1004,34.6,35.33,110.17,0.11,"Amelia, VA",438858.3,18.28
+Virginia,Amherst,46316,2504,51.0,4.89,1.86,0.18,"Amherst County, VA",299058.29,16.53
+Virginia,Annandale,106620,41869,38.6,363.55,1795.21,0.27,"Fairfax, VA",700491.6,54.3
+Virginia,Appalachia,30109,1472,32.7,27.01,177.49,0.06,"Wise County, VA",241434.82,5.03
+Virginia,Apple Mountain Lake,94097,1413,39.6,48.68,393.06,0.12,"Warren, VA",401992.9,24.39
+Virginia,Appomattox,35083,2214,35.7,75.44,319.96,0.09,"Appomattox County, VA",240571.77,8.88
+Virginia,Aquia Harbour,125077,6161,38.0,39.93,763.99,0.27,"Stafford, VA",536904.5,42.5
+Virginia,Arcola,114271,2258,32.3,180.96,399.41,0.33,"Loudoun, VA",723663.5,55.59
+Virginia,Arlington,128145,235764,35.1,484.23,3305.63,0.35,"Arlington, VA",725583.3,65.53
+Virginia,Ashburn,139188,44950,40.4,160.49,973.17,0.37,"Loudoun, VA",723663.5,61.08
+Virginia,Ashland,55521,7478,30.5,113.77,385.82,0.19,"Hanover, VA",420867.0,25.25
+Virginia,Atkins,41234,1090,41.9,14.01,64.18,0.06,"Smyth, VA",188908.3,4.43
+Virginia,Bailey's Crossroads,73738,24501,33.7,415.33,4247.04,0.25,"Fairfax, VA",700491.6,49.21
+Virginia,Bassett,37534,1045,47.9,20.35,120.17,0.19,"Henry, VA",168240.9,11.08
+Virginia,Basye,78939,1318,47.3,20.42,60.47,0.15,"Shenandoah, VA",323437.4,20.31
+Virginia,Bealeton,102667,4043,35.0,56.02,385.87,0.22,"Fauquier, VA",678276.7,42.64
+Virginia,Bedford,36971,6610,37.2,6.53,2.9,0.13,"Bedford, VA",397439.9,16.23
+Virginia,Belle Haven,120000,6434,45.0,35.17,3535.59,0.3,"Fairfax, VA",700491.6,50.63
+Virginia,Bellwood,44872,8138,30.9,81.7,513.82,0.07,"Chesterfield, VA",402937.5,15.54
+Virginia,Belmont,198220,9589,37.1,159.42,1340.94,0.37,"Loudoun, VA",723663.5,69.03
+Virginia,Belmont Estates,83556,1257,61.1,50.63,909.22,0.19,"Loudoun, VA",723663.5,40.59
+Virginia,Bensley,39635,5945,32.2,91.53,818.26,0.09,"Chesterfield, VA",402937.5,16.35
+Virginia,Berryville,81765,4494,45.9,115.85,797.31,0.19,"Clarke, VA",633620.8,37.85
+Virginia,Bethel Manor,69402,4607,22.0,190.09,3368.18,0.2,"York, VA",445132.5,30.39
+Virginia,Big Stone Gap,57431,5280,39.8,98.96,457.13,0.11,"Wise, VA",161787.5,10.38
+Virginia,Blacksburg,43804,44385,21.9,142.86,778.4,0.28,"Montgomery, VA",368398.8,27.45
+Virginia,Blackstone,53800,3402,45.6,60.6,362.94,0.15,"Nottoway County, VA",294607.74,16.76
+Virginia,Bluefield,57895,5079,45.5,36.66,232.74,0.17,"Tazewell, VA",173300.0,13.38
+Virginia,Blue Ridge,81786,3078,42.3,14.25,218.27,0.18,"Botetourt, VA",393311.3,25.31
+Virginia,Bon Air,89019,17846,42.0,116.07,730.67,0.28,"Chesterfield, VA",402937.5,34.84
+Virginia,Boswell's Corner,95338,1580,29.4,207.26,792.9,0.06,"Stafford, VA",536904.5,29.92
+Virginia,Bowling Green,63250,1494,39.8,83.4,321.15,0.18,"Caroline, VA",384299.8,24.05
+Virginia,Braddock,185000,6588,47.9,78.0,676.15,0.33,"Fairfax, VA",700491.6,62.3
+Virginia,Brambleton,205547,21986,36.6,201.19,1280.99,0.4,"Loudoun, VA",723663.5,72.37
+Virginia,Brandermill,100625,13745,44.4,112.87,617.33,0.29,"Chesterfield, VA",402937.5,36.99
+Virginia,Bridgewater,66847,6092,32.3,94.25,693.43,0.3,"Rockingham, VA",350421.4,30.29
+Virginia,Brightwood,87716,1359,46.5,24.37,130.9,0.15,"Madison, VA",447562.7,27.02
+Virginia,Bristol,43879,16996,43.4,84.57,520.2,0.12,"Bristol, VA",202745.7,10.32
+Virginia,Broadlands,203455,14835,36.2,186.89,1736.05,0.42,"Loudoun, VA",723663.5,73.08
+Virginia,Broadway,57878,4152,38.7,82.66,724.09,0.16,"Rockingham, VA",350421.4,20.66
+Virginia,Brookneal,50313,1064,47.5,32.69,212.09,0.06,"Campbell, VA",292775.0,10.13
+Virginia,Buchanan,49479,1147,46.1,5.07,0.8,0.1,"Botetourt, VA",393311.3,15.95
+Virginia,Buckhall,142713,18751,40.7,38.01,626.91,0.28,"Prince William County, VA",540351.38,45.83
+Virginia,Buena Vista,42156,6649,35.9,83.81,401.46,0.1,"Buena Vista City, VA",234316.34,10.24
+Virginia,Bull Run,79491,16709,32.0,286.38,2306.1,0.26,"Prince William, VA",541120.3,41.32
+Virginia,Bull Run Mountain Estates,162738,1732,22.7,50.18,480.18,0.16,"Prince William County, VA",508993.46,39.72
+Virginia,Burke,157336,44191,40.4,93.17,1587.29,0.32,"Fairfax, VA",700491.6,57.73
+Virginia,Burke Centre,140872,18113,37.9,319.56,2100.22,0.35,"Fairfax, VA",700491.6,62.36
+Virginia,Cana,43750,1469,37.4,6.55,66.82,0.12,"Carroll County, VA",281531.79,11.76
+Virginia,Cape Charles,49167,1134,56.5,143.5,129.15,0.26,"Northampton, VA",570944.5,35.92
+Virginia,Captains Cove,61655,1408,43.6,36.66,204.8,0.18,"Accomack, VA",326001.2,20.33
+Virginia,Carrollton,106859,7171,38.9,75.24,363.84,0.21,"Isle of Wight, VA",391572.8,31.68
+Virginia,Cascades,149349,12509,38.7,145.34,1002.79,0.36,"Loudoun, VA",723663.5,61.38
+Virginia,Castlewood,41875,1238,53.4,19.98,79.04,0.08,"Russell, VA",181111.1,5.45
+Virginia,Cave Spring,74399,25248,42.2,61.24,698.39,0.32,"Roanoke County, VA",414346.83,34.58
+Virginia,Cedar Bluff,41296,1159,45.3,38.7,283.87,0.1,"Tazewell, VA",173300.0,6.82
+Virginia,Central Garage,79283,1401,44.2,55.44,136.52,0.12,"King William County, VA",393235.79,22.21
+Virginia,Centreville,126990,73064,36.8,147.39,2077.69,0.34,"Fairfax, VA",700491.6,56.09
+Virginia,Chamberlayne,84333,5069,54.6,75.42,806.58,0.24,"Henrico, VA",397779.2,31.0
+Virginia,Chantilly,131362,23564,39.8,165.99,639.31,0.3,"Fairfax, VA",700491.6,54.61
+Virginia,Charlottesville,63470,46597,32.5,400.51,1412.13,0.28,"Albemarle, VA",553846.6,43.79
+Virginia,Chase City,40239,2478,43.9,43.2,438.75,0.16,"Mecklenburg, VA",329918.1,16.35
+Virginia,Chatham,52344,1558,35.6,39.32,331.13,0.17,"Pittsylvania, VA",205358.3,13.4
+Virginia,Chatmoss,62857,1214,53.0,15.16,165.83,0.27,"Henry, VA",168240.9,19.28
+Virginia,Cherry Hill,96703,22118,31.9,115.75,1049.25,0.23,"Prince William, VA",541120.3,38.06
+Virginia,Chesapeake,85563,247172,37.1,34.95,286.61,0.22,"Chesapeake, VA",403132.7,29.07
+Virginia,Chester,78673,22512,38.4,122.66,567.46,0.22,"Chesterfield, VA",402937.5,29.83
+Virginia,Chester Gap,104539,1021,35.4,36.26,191.84,0.17,"Rappahannock, VA",863567.7,46.98
+Virginia,Chilhowie,45875,2060,48.8,51.63,338.72,0.18,"Smyth, VA",188908.3,13.18
+Virginia,Chincoteague,50795,3285,58.5,55.24,195.34,0.22,"Accomack, VA",326001.2,21.74
+Virginia,Christiansburg,63934,23174,37.9,87.8,427.64,0.22,"Montgomery, VA",368398.8,25.88
+Virginia,Clarksville,48125,1542,48.2,27.96,144.21,0.23,"Mecklenburg, VA",329918.1,21.83
+Virginia,Claypool Hill,39485,1169,37.1,31.44,84.3,0.07,"Tazewell, VA",173300.0,4.39
+Virginia,Clifton Forge,34375,3549,41.9,66.69,451.67,0.1,"Alleghany, VA",165742.5,6.0
+Virginia,Clintwood,38548,1379,50.8,53.84,231.3,0.11,"Dickenson, VA",123250.0,5.44
+Virginia,Cloverdale,57321,3483,46.9,37.3,2201.99,0.17,"Botetourt, VA",393311.3,21.96
+Virginia,Coeburn,48714,1615,43.6,43.71,233.73,0.08,"Wise, VA",161787.5,6.23
+Virginia,Collinsville,42696,7529,38.7,23.8,337.45,0.15,"Henry, VA",168240.9,9.41
+Virginia,Colonial Beach,52750,3838,46.1,65.04,423.78,0.14,"Westmoreland County, VA",288739.83,15.81
+Virginia,Colonial Heights,65570,18127,39.0,162.66,781.47,0.15,"Colonial Heights, VA",277209.0,20.0
+Virginia,Countryside,123875,9384,36.0,160.32,1463.48,0.38,"Fairfax, VA",700491.6,58.54
+Virginia,County Center,132313,4191,34.5,330.1,3689.16,0.3,"County Center, VA",718062.5,59.34
+Virginia,Courtland,46000,1872,34.7,76.53,847.73,0.07,"Southampton, VA",381138.8,14.85
+Virginia,Covington,41242,5716,42.2,79.11,347.82,0.08,"Alleghany, VA",165742.5,6.13
+Virginia,Crewe,52788,2853,31.3,65.85,461.57,0.14,"Nottoway, VA",229288.3,13.24
+Virginia,Crimora,64028,2159,31.5,36.05,284.06,0.06,"Augusta, VA",361961.5,14.74
+Virginia,Crosspointe,187167,5049,47.6,88.16,786.4,0.33,"Fairfax, VA",700491.6,62.38
+Virginia,Crozet,104330,7840,40.7,125.79,700.41,0.31,"Albemarle, VA",553846.6,45.09
+Virginia,Culpeper,79572,19740,35.5,12.82,15.65,0.18,"Culpeper, VA",531408.5,30.13
+Virginia,Dahlgren,105280,3448,34.1,136.8,796.76,0.18,"King George, VA",483789.5,34.52
+Virginia,Dale City,101082,73716,35.6,99.75,1810.69,0.2,"Prince William County, VA",558936.58,37.71
+Virginia,Daleville,92143,2979,52.4,39.73,233.89,0.17,"Botetourt, VA",393311.3,26.97
+Virginia,Danville,38904,42556,40.9,48.1,292.78,0.11,"Pittsylvania, VA",205358.3,8.32
+Virginia,Dayton,68333,1615,33.9,47.57,556.67,0.19,"Rockingham, VA",350421.4,23.18
+Virginia,Difficult Run,250001,10647,45.4,61.4,489.66,0.32,"Fairfax, VA",700491.6,69.96
+Virginia,Dooms,50091,1191,38.2,27.21,110.98,0.05,"Augusta, VA",361961.5,12.32
+Virginia,Dranesville,189949,11951,41.7,110.88,1059.26,0.42,"Fairfax, VA",700491.6,68.87
+Virginia,Dublin,53558,2633,38.5,55.99,682.56,0.08,"Pulaski, VA",197145.8,8.09
+Virginia,Dulles Town Center,102885,5612,32.3,359.62,954.68,0.31,"Loudoun, VA",723663.5,56.75
+Virginia,Dumbarton,54925,8443,35.8,187.48,1657.46,0.23,"Henrico, VA",397779.2,28.47
+Virginia,Dumfries,71784,5669,28.4,318.11,1470.95,0.15,"Prince William, VA",541120.3,34.34
+Virginia,Dunn Loring,222292,9251,41.9,155.88,1439.12,0.37,"Fairfax, VA",700491.6,70.87
+Virginia,Earlysville,123750,1095,45.7,27.15,265.42,0.29,"Albemarle, VA",553846.6,44.09
+Virginia,East Highland Park,59058,16669,39.4,102.14,1131.3,0.12,"Henrico, VA",397779.2,20.63
+Virginia,East Lexington,67838,1893,41.5,91.21,298.73,0.06,"Rockbridge, VA",358954.5,16.65
+Virginia,Edinburg,68603,1414,32.0,105.61,969.66,0.19,"Shenandoah, VA",323437.4,23.13
+Virginia,Elkton,53750,2938,42.3,56.9,323.34,0.09,"Rockingham, VA",350421.4,15.47
+Virginia,Emory,74375,1025,21.2,30.64,93.73,0.22,"Washington, VA",290093.7,22.67
+Virginia,Emporia,36111,5761,39.2,64.37,327.62,0.07,"Greensville, VA",196322.2,5.76
+Virginia,Enon,72353,4411,37.1,42.31,439.08,0.29,"Chesterfield, VA",402937.5,31.73
+Virginia,Ettrick,52000,5169,26.4,100.54,792.24,0.12,"Chesterfield, VA",402937.5,19.85
+Virginia,Exmore,37450,1635,38.9,56.68,264.04,0.08,"Northampton, VA",570944.5,21.41
+Virginia,Fairfax,118492,23980,37.7,290.47,1315.73,0.3,"Fairfax, VA",700491.6,56.04
+Virginia,Fairfax Station,190139,12322,44.6,39.45,845.41,0.35,"Fairfax, VA",700491.6,62.76
+Virginia,Fair Lakes,116162,8689,37.9,210.78,1337.83,0.34,"Fairfax, VA",700491.6,56.44
+Virginia,Fairlawn,56389,2553,53.3,28.56,215.11,0.27,"Pulaski County, VA",379638.51,27.18
+Virginia,Fair Oaks,111329,34437,35.2,244.33,2204.33,0.36,"Fairfax, VA",700491.6,57.69
+Virginia,Falls Church,155071,14494,39.3,301.75,2403.09,0.3,"Fairfax, VA",700491.6,60.75
+Virginia,Falmouth,111250,4536,40.6,76.66,743.0,0.27,"Stafford, VA",536904.5,42.04
+Virginia,Farmville,35690,7266,23.5,62.8,273.26,0.17,"Prince Edward, VA",247568.8,13.46
+Virginia,Ferrum,35726,1832,21.6,11.8,68.21,0.04,"Franklin, VA",471875.0,13.66
+Virginia,Fishersville,64589,8909,41.6,35.61,163.52,0.21,"Augusta, VA",361961.5,24.01
+Virginia,Floris,220449,7592,43.0,133.62,1130.89,0.34,"Fairfax, VA",700491.6,68.76
+Virginia,Forest,80000,11045,45.1,48.33,299.4,0.24,"Bedford, VA",397439.9,29.75
+Virginia,Fort Belvoir,86524,7850,19.6,105.84,365.21,0.29,"Fairfax, VA",700491.6,46.61
+Virginia,Fort Hunt,188925,16322,45.9,78.24,1057.18,0.34,"Fairfax, VA",700491.6,63.18
+Virginia,Franconia,131028,18310,39.8,141.42,1577.95,0.33,"Fairfax, VA",700491.6,56.01
+Virginia,Franklin,49424,8249,39.0,3.78,4.16,0.12,"Franklin County, VA",330074.8,14.49
+Virginia,Franklin Farm,193486,18906,42.3,104.74,1296.0,0.38,"Fairfax, VA",700491.6,66.54
+Virginia,Fredericksburg,72293,28027,30.7,241.32,984.66,0.23,"Spotsylvania, VA",452218.7,34.11
+Virginia,Front Royal,54731,15039,37.2,95.67,691.7,0.14,"Warren, VA",401992.9,21.46
+Virginia,Gainesville,150487,17081,35.0,108.81,587.8,0.3,"Prince William, VA",541120.3,49.52
+Virginia,Galax,39808,6681,42.1,88.83,248.21,0.11,"Galax, VA",174285.7,8.04
+Virginia,Gate City,36773,1908,46.6,47.91,219.2,0.19,"Scott, VA",172467.5,12.0
+Virginia,George Mason,129167,9927,20.9,285.63,1105.44,0.29,"Fairfax, VA",700491.6,56.33
+Virginia,Glade Spring,65600,2068,36.6,40.83,607.52,0.18,"Washington, VA",290093.7,19.56
+Virginia,Glasgow,38814,1437,39.7,36.48,382.65,0.06,"Rockbridge, VA",358954.5,11.56
+Virginia,Glen Allen,79401,14783,41.0,74.64,524.46,0.28,"Henrico, VA",397779.2,32.15
+Virginia,Gloucester Courthouse,54196,3198,43.4,55.21,168.48,0.21,"Gloucester County, VA",346674.63,22.59
+Virginia,Gloucester Point,69615,11313,40.6,63.15,439.1,0.15,"Gloucester County, VA",364285.87,21.88
+Virginia,Goose Creek Village,196346,2421,36.4,427.5,4441.95,0.41,"Loudoun, VA",723663.5,76.89
+Virginia,Gordonsville,49904,1783,37.6,233.77,842.05,0.16,"Orange, VA",422512.2,25.47
+Virginia,Gratton,55104,1009,40.1,15.08,156.83,0.04,"Tazewell County, VA",291694.31,9.36
+Virginia,Great Falls,250001,14690,49.2,47.14,206.76,0.35,"Fairfax, VA",700491.6,71.03
+Virginia,Great Falls Crossing,250001,1510,50.1,105.72,1016.82,0.47,"Fairfax, VA",700491.6,79.63
+Virginia,Greenbriar,117012,7914,39.8,263.64,2031.62,0.31,"Fairfax, VA",700491.6,55.59
+Virginia,Greenville,59338,1476,32.4,21.67,158.32,0.05,"Greene County, VA",365540.35,13.04
+Virginia,Gretna,29350,1310,53.6,178.88,364.44,0.09,"Pittsylvania, VA",205358.3,9.3
+Virginia,Grottoes,69464,2886,39.0,76.61,561.15,0.14,"Rockingham, VA",350421.4,20.55
+Virginia,Groveton,98455,14402,36.0,97.93,1285.66,0.29,"Fairfax, VA",700491.6,48.31
+Virginia,Grundy,46406,1112,47.2,42.05,148.9,0.15,"Grundy County, VA",251999.99,13.68
+Virginia,Halifax,49459,1645,49.9,3.72,0.74,0.15,"Halifax County, VA",298424.15,14.99
+Virginia,Hampden-Sydney,130902,1840,20.5,29.92,165.84,0.19,"Prince Edward, VA",247568.8,26.37
+Virginia,Hampton,59380,136748,36.3,109.12,879.74,0.17,"Hampton, VA",275409.2,18.61
+Virginia,Harrisonburg,51055,52062,25.5,130.75,976.91,0.2,"Rockingham, VA",350421.4,22.69
+Virginia,Hayfield,178542,4348,38.4,317.75,1469.75,0.42,"Fairfax, VA",700491.6,71.91
+Virginia,Haymarket,133750,1556,36.5,291.43,1345.6,0.3,"Prince William County, VA",709032.82,58.22
+Virginia,Herndon,117741,24574,35.7,344.03,2106.68,0.31,"Fairfax, VA",700491.6,57.25
+Virginia,Highland Springs,50684,14823,37.7,63.34,805.19,0.11,"Henrico, VA",397779.2,18.0
+Virginia,Hillsville,56818,2863,47.1,18.64,100.29,0.16,"Carroll, VA",211022.7,13.27
+Virginia,Hollins,70053,15857,46.0,74.94,681.36,0.18,"Roanoke County, VA",358043.41,23.4
+Virginia,Hollymead,103802,8668,37.8,91.95,516.52,0.3,"Albemarle, VA",553846.6,43.8
+Virginia,Honaker,30313,1207,42.0,47.64,305.84,0.09,"Russell, VA",181111.1,4.91
+Virginia,Hopewell,44209,23020,35.8,118.16,835.9,0.08,"Prince George County, VA",296611.3,12.58
+Virginia,Horse Pasture,48438,2006,51.1,8.72,73.17,0.12,"Henry, VA",168240.9,7.86
+Virginia,Huntington,93750,13979,36.1,352.05,5137.01,0.3,"Fairfax, VA",700491.6,53.82
+Virginia,Hurt,46176,1452,52.2,36.11,215.76,0.1,"Pittsylvania, VA",205358.3,8.62
+Virginia,Hutchison,91762,6503,30.4,462.37,6912.23,0.32,"Fairfax County, VA",611154.67,53.41
+Virginia,Hybla Valley,57050,18410,32.3,254.46,3509.11,0.18,"Fairfax, VA",700491.6,39.42
+Virginia,Idylwood,107358,17687,36.4,135.4,1982.48,0.29,"Fairfax, VA",700491.6,50.34
+Virginia,Independence,32738,1146,50.1,33.48,219.26,0.16,"Grayson, VA",354715.0,16.62
+Virginia,Independent Hill,182750,9855,38.0,115.01,349.6,0.34,"Prince William County, VA",657968.24,61.17
+Virginia,Innsbrook,96849,8966,34.5,242.81,848.1,0.41,"Henrico, VA",397779.2,46.23
+Virginia,Jonesville,17344,1313,47.8,72.04,639.07,0.09,"Lee, VA",122295.0,1.47
+Virginia,Kenbridge,46510,1281,31.4,18.06,108.64,0.11,"Lunenburg, VA",249118.7,10.51
+Virginia,Kilmarnock,37589,1424,56.0,90.53,223.82,0.18,"Lancaster, VA",370686.3,20.25
+Virginia,King George,85671,4657,34.9,16.52,8.45,0.16,"King George, VA",483789.5,28.23
+Virginia,Kings Park,150270,4194,42.3,101.68,1005.78,0.27,"Fairfax, VA",700491.6,53.96
+Virginia,Kings Park West,151005,13812,39.3,108.24,1588.82,0.34,"Fairfax, VA",700491.6,58.3
+Virginia,Kingstowne,132493,18369,38.7,278.58,1942.01,0.28,"Fairfax, VA",700491.6,56.03
+Virginia,Lake Barcroft,126908,10682,43.8,178.97,1415.09,0.3,"Fairfax, VA",700491.6,54.49
+Virginia,Lake Caroline,67768,1454,28.9,29.97,207.51,0.2,"Caroline, VA",384299.8,24.04
+Virginia,Lake Land'Or,117672,3726,44.2,31.94,1202.28,0.16,"Orange, VA",422512.2,30.22
+Virginia,Lake Monticello,85950,10438,41.4,96.71,461.58,0.29,"Fluvanna, VA",383892.0,33.83
+Virginia,Lake of the Woods,88438,8557,50.1,44.93,711.96,0.23,"Orange, VA",422512.2,30.95
+Virginia,Lake Ridge,108654,44697,36.6,110.7,1676.12,0.25,"Prince William County, VA",675544.14,46.71
+Virginia,Lakeside,59234,12690,37.7,130.93,1237.13,0.22,"Henrico, VA",397779.2,27.54
+Virginia,Lake Wilderness,117750,2940,36.2,67.93,950.97,0.17,"King William County, VA",560558.72,37.03
+Virginia,Lansdowne,156596,13029,40.8,282.43,1346.93,0.35,"Loudoun, VA",723663.5,65.0
+Virginia,Laurel,63737,17962,35.5,125.15,1052.89,0.18,"Henrico, VA",397779.2,25.6
+Virginia,Laurel Hill,108219,8415,38.4,141.63,1100.5,0.34,"Fairfax, VA",700491.6,53.55
+Virginia,Lawrenceville,30987,1334,24.4,107.01,492.23,0.12,"Brunswick, VA",233250.0,9.96
+Virginia,Laymantown,76205,1770,50.9,18.91,380.26,0.19,"Botetourt, VA",393311.3,25.3
+Virginia,Lebanon,43762,3158,42.9,124.18,233.02,0.06,"Russell, VA",181111.1,6.7
+Virginia,Leesburg,116350,48223,35.3,209.62,1215.99,0.33,"Loudoun, VA",723663.5,56.46
+Virginia,Leesylvania,126601,21865,35.4,222.77,1342.96,0.27,"Prince William County, VA",713141.87,54.02
+Virginia,Lexington,66114,7287,22.4,186.03,1146.84,0.3,"Rockbridge, VA",358954.5,32.39
+Virginia,Lincolnia,107508,20704,38.3,206.39,2618.36,0.24,"Fairfax, VA",700491.6,49.11
+Virginia,Linton Hall,152461,42089,35.3,81.21,1161.08,0.35,"Prince William, VA",541120.3,52.12
+Virginia,Loch Lomond,97492,4153,30.0,84.27,2651.31,0.08,"Prince William, VA",541120.3,28.37
+Virginia,Long Branch,176908,7734,43.7,117.56,1148.03,0.3,"Fairfax, VA",700491.6,60.08
+Virginia,Lorton,120000,21394,37.4,119.73,1311.6,0.29,"Fairfax, VA",700491.6,51.37
+Virginia,Loudoun Valley Estates,210328,10460,35.8,111.39,1280.33,0.32,"Loudoun, VA",723663.5,66.49
+Virginia,Louisa,42407,1999,41.0,6.5,1.4,0.13,"Louisa County, VA",308697.42,13.48
+Virginia,Lovettsville,126912,2608,32.7,350.75,1367.36,0.33,"Loudoun, VA",723663.5,61.09
+Virginia,Lowes Island,194327,11272,38.1,104.84,1330.82,0.42,"Loudoun, VA",723663.5,70.14
+Virginia,Luray,47346,4784,50.9,73.94,329.67,0.12,"Page, VA",275412.7,13.61
+Virginia,Lynchburg,54015,78973,28.6,140.94,534.59,0.23,"Lynchburg, VA",258500.0,21.36
+Virginia,Lyndhurst,66477,1654,41.4,17.8,109.45,0.18,"Augusta, VA",361961.5,21.94
+Virginia,McGaheysville,68125,1011,32.7,51.13,427.19,0.2,"Rockingham, VA",350421.4,23.51
+Virginia,McLean,242610,49310,46.4,92.39,676.53,0.3,"McLean, VA",631861.94,65.37
+Virginia,McNair,110568,20980,31.1,469.43,4011.68,0.38,"Fairfax, VA",700491.6,63.53
+Virginia,Madison Heights,49928,10790,44.1,24.48,192.81,0.12,"Amherst, VA",307945.8,13.92
+Virginia,Manassas,101934,42596,35.0,229.1,1656.84,0.19,"Prince William, VA",541120.3,39.31
+Virginia,Manassas Park,90544,17081,35.5,287.92,1863.58,0.18,"Prince William, VA",541120.3,38.45
+Virginia,Manchester,66941,12192,34.3,139.66,824.99,0.26,"Chesterfield, VA",402937.5,31.02
+Virginia,Mantua,177464,7771,40.1,94.89,1163.1,0.3,"Fairfax, VA",700491.6,59.68
+Virginia,Marion,33250,5817,44.6,59.84,414.41,0.13,"Smyth, VA",188908.3,8.25
+Virginia,Marshall,128014,3114,30.8,138.1,759.82,0.14,"Fauquier, VA",678276.7,42.8
+Virginia,Martinsville,36832,13476,40.6,40.92,450.93,0.15,"Henry, VA",168240.9,8.8
+Virginia,Mason Neck,169167,1903,50.9,14.9,54.32,0.24,"Fairfax, VA",700491.6,53.19
+Virginia,Massanetta Springs,100862,6132,48.4,52.26,471.27,0.28,"Rockingham, VA",350421.4,33.01
+Virginia,Massanutten,84952,2184,52.1,23.28,98.55,0.25,"Rockingham, VA",350421.4,28.75
+Virginia,Mathews,39500,1052,40.7,10.86,3.9,0.21,"Mathews, VA",456334.0,23.92
+Virginia,Matoaca,55449,2440,36.8,33.72,335.87,0.11,"Chesterfield, VA",402937.5,18.24
+Virginia,Meadowbrook,66730,19574,37.6,79.4,926.82,0.15,"Fairfax, VA",700491.6,35.36
+Virginia,Mechanicsville,84833,37767,41.7,71.23,475.14,0.22,"Hanover, VA",420867.0,30.72
+Virginia,Merrifield,128361,19075,33.8,535.84,2652.1,0.37,"Fairfax, VA",700491.6,66.48
+Virginia,Merrimac,55139,2663,40.6,53.19,1967.38,0.13,"Spotsylvania County, VA",319011.27,16.58
+Virginia,Middletown,48634,1608,39.5,113.51,1037.04,0.16,"Frederick, VA",438624.4,23.47
+Virginia,Midlothian,96981,19016,40.8,114.31,811.09,0.32,"Chesterfield, VA",402937.5,38.11
+Virginia,Montclair,135987,21961,37.9,102.52,1105.23,0.32,"Prince William, VA",541120.3,48.62
+Virginia,Montrose,38111,7612,42.5,79.08,745.94,0.13,"Westmoreland, VA",370795.0,16.97
+Virginia,Moorefield,168043,5013,35.8,386.25,1528.25,0.34,"Hardy, VA",717464.68,67.87
+Virginia,Mountain Road,29091,1423,42.4,4.44,74.3,0.0,"Henrico County, VA",257621.08,1.67
+Virginia,Mount Hermon,76389,4242,48.9,25.92,304.53,0.16,"Franklin, VA",471875.0,26.75
+Virginia,Mount Jackson,44236,2041,38.3,16.95,146.61,0.09,"Shenandoah, VA",323437.4,11.79
+Virginia,Mount Vernon,149087,13707,42.8,316.26,25350.53,0.31,"Fairfax, VA",700491.6,60.97
+Virginia,Narrows,50333,2099,36.8,57.94,535.75,0.12,"Giles County, VA",370691.75,17.5
+Virginia,Navy,206144,3832,44.3,121.57,1044.5,0.48,"Stafford, VA",536904.5,68.04
+Virginia,Nellysford,128594,1337,65.4,24.49,85.05,0.25,"Nelson, VA",450818.1,38.98
+Virginia,New Baltimore,160228,11517,38.8,49.91,327.87,0.33,"Fauquier, VA",678276.7,57.06
+Virginia,Newington,146523,13419,37.2,126.48,1417.94,0.33,"Fairfax, VA",700491.6,57.62
+Virginia,Newington Forest,129904,12641,36.9,96.11,1345.44,0.32,"Fairfax, VA",700491.6,54.22
+Virginia,New Market,42727,2281,50.6,175.75,483.57,0.12,"Shenandoah, VA",323437.4,17.24
+Virginia,Newport News,57463,185069,33.9,126.27,925.57,0.18,"Newport News, VA",274737.5,19.24
+Virginia,Nokesville,83920,1431,47.5,23.2,61.25,0.23,"Prince William County, VA",399609.3,29.3
+Virginia,Norfolk,56244,238556,30.9,192.39,1357.97,0.19,"Norfolk, VA",315695.8,23.13
+Virginia,North Shore,100938,3188,62.8,10.66,59.83,0.24,"Roanoke County, VA",442221.6,33.88
+Virginia,North Springfield,117467,7323,36.9,62.12,1943.98,0.32,"Fairfax, VA",700491.6,51.54
+Virginia,Norton,35592,3696,41.2,58.49,199.62,0.12,"Wise, VA",161787.5,7.26
+Virginia,Oak Grove,164219,2500,32.6,178.28,873.94,0.4,"Westmoreland County, VA",671807.85,64.1
+Virginia,Oakton,145064,36675,38.7,196.29,1269.0,0.34,"Fairfax, VA",700491.6,59.52
+Virginia,Occoquan,117448,1112,42.4,914.6,3671.62,0.28,"Prince William County, VA",704954.13,68.36
+Virginia,Onancock,48690,1291,54.8,93.52,466.16,0.13,"Accomack, VA",326001.2,16.85
+Virginia,One Loudoun,250001,2504,34.7,555.92,1699.66,0.41,"Loudoun, VA",723663.5,86.51
+Virginia,Orange,58908,5012,34.0,8.76,4.9,0.13,"Orange, VA",422512.2,20.39
+Virginia,Pantops,85962,4288,37.6,390.61,647.7,0.44,"Albemarle, VA",553846.6,56.44
+Virginia,Passapatanzy,101105,1201,34.0,44.42,533.46,0.08,"King George, VA",483789.5,26.01
+Virginia,Patrick Springs,52262,2151,50.1,6.25,48.36,0.14,"Patrick County, VA",270712.44,14.19
+Virginia,Pearisburg,65838,2878,45.1,44.08,372.06,0.14,"Giles County, VA",320388.89,18.19
+Virginia,Pembroke,50625,1064,43.5,41.26,395.5,0.11,"Giles County, VA",298289.55,13.81
+Virginia,Penhook,85139,1337,49.3,5.88,53.88,0.23,"Franklin, VA",471875.0,32.12
+Virginia,Pennington Gap,20814,2079,33.6,72.41,441.49,0.06,"Lee, VA",122295.0,0.0
+Virginia,Petersburg,44890,33229,37.2,72.69,520.93,0.14,"Petersburg, VA",191941.6,10.78
+Virginia,Pimmit Hills,150385,6150,37.5,163.01,1793.42,0.32,"Fairfax, VA",700491.6,58.58
+Virginia,Piney Mountain,86776,1916,32.7,77.68,1033.56,0.29,"Albemarle, VA",553846.6,40.53
+Virginia,Poquoson,112026,12382,43.0,42.74,394.62,0.21,"Poquoson, VA",544353.0,37.97
+Virginia,Portsmouth,54020,97454,35.5,132.07,1072.84,0.13,"Portsmouth, VA",264841.6,16.07
+Virginia,Potomac Mills,124625,6759,35.9,254.51,446.46,0.23,"Prince William County, VA",579901.36,46.49
+Virginia,Prices Fork,82560,1009,41.7,37.34,194.2,0.13,"Montgomery, VA",368398.8,21.59
+Virginia,Prince George,71022,1707,38.7,17.61,2.17,0.15,"Prince George, VA",339620.8,19.56
+Virginia,Pulaski,50410,8984,41.9,6.13,9.89,0.07,"Pulaski, VA",197145.8,6.34
+Virginia,Purcellville,140536,8910,35.3,194.6,1185.14,0.33,"Loudoun, VA",723663.5,59.48
+Virginia,Quantico Base,62607,5683,22.5,55.75,217.91,0.4,"Prince William County, VA",455216.73,38.83
+Virginia,Radford,44360,16205,23.6,80.95,654.91,0.2,"Radford, VA",271491.6,17.55
+Virginia,Raven,30000,2133,43.9,13.69,106.19,0.04,"Buchanan County, VA",235378.49,3.25
+Virginia,Ravensworth,142539,2370,38.3,133.44,1235.4,0.27,"Fairfax, VA",700491.6,53.62
+Virginia,Reston,126571,62453,39.6,218.14,1384.78,0.36,"Fairfax, VA",700491.6,58.75
+Virginia,Richlands,31169,5300,47.1,60.19,341.56,0.06,"Tazewell, VA",173300.0,3.45
+Virginia,Richmond,54795,225676,34.4,203.8,1072.6,0.25,"Henrico, VA",397779.2,30.12
+Virginia,Ridgeway,39375,1252,28.1,51.12,609.59,0.14,"Henry, VA",168240.9,8.57
+Virginia,Riner,75853,1322,43.7,20.02,401.08,0.21,"Montgomery, VA",368398.8,25.33
+Virginia,Rio,58502,1584,28.8,474.98,914.17,0.17,"Greene County, VA",429419.2,33.1
+Virginia,Rivanna,135536,1954,55.8,57.76,367.62,0.34,"Albemarle, VA",553846.6,49.59
+Virginia,Roanoke,48476,99578,38.0,113.4,762.97,0.16,"Roanoke County, VA",348336.81,20.09
+Virginia,Rockwood,81528,7880,47.1,66.36,506.18,0.26,"Pulaski County, VA",415066.38,32.35
+Virginia,Rocky Mount,53299,4863,43.6,34.44,283.36,0.17,"Franklin, VA",471875.0,24.55
+Virginia,Rose Hill,142842,21466,37.8,128.71,1506.48,0.29,"Fairfax, VA",700491.6,54.82
+Virginia,Ruckersville,82109,1325,44.3,84.72,246.71,0.16,"Greene, VA",402049.9,25.85
+Virginia,Rural Retreat,53636,1518,43.8,36.63,276.67,0.14,"Wythe, VA",229720.8,13.16
+Virginia,Rustburg,48889,1944,40.2,8.96,79.14,0.07,"Campbell, VA",292775.0,10.24
+Virginia,St. Paul,26923,1134,42.1,47.28,285.21,0.17,"Wise, VA",161787.5,8.59
+Virginia,Salem,66472,25335,40.8,92.43,622.81,0.19,"Roanoke, VA",332583.5,23.09
+Virginia,Saltville,41759,2225,35.9,18.9,141.14,0.07,"Smyth, VA",188908.3,4.7
+Virginia,Sandston,54221,7083,38.1,100.86,287.37,0.09,"Henrico, VA",397779.2,18.38
+Virginia,Seven Corners,57438,9191,33.9,536.95,5005.21,0.19,"Fairfax, VA",700491.6,46.42
+Virginia,Shawneeland,67500,2366,34.8,30.39,172.82,0.11,"Frederick County, VA",387213.5,19.07
+Virginia,Shawsville,62839,1628,35.8,24.97,387.15,0.02,"Montgomery, VA",368398.8,12.47
+Virginia,Shenandoah,59457,2837,30.3,6.72,2.09,0.07,"Shenandoah County, VA",334497.61,13.1
+Virginia,Shenandoah Farms,62358,3463,35.9,15.97,100.75,0.11,"Warren, VA",401992.9,18.65
+Virginia,Short Pump,116955,27332,38.3,139.71,967.44,0.42,"Henrico, VA",397779.2,47.34
+Virginia,Smithfield,92913,8513,46.1,131.36,321.25,0.21,"Isle of Wight, VA",391572.8,31.05
+Virginia,South Boston,45408,8011,43.0,46.52,244.54,0.12,"Halifax, VA",219083.2,10.37
+Virginia,Southern Gateway,72139,3163,29.8,153.83,409.91,0.18,"Chesterfield, VA",402937.5,26.91
+Virginia,South Hill,40637,4636,39.2,34.04,186.32,0.13,"Mecklenburg, VA",329918.1,14.64
+Virginia,South Riding,170456,33828,36.9,219.22,1884.06,0.33,"Loudoun, VA",723663.5,63.98
+Virginia,South Run,238456,6953,41.4,58.13,1502.64,0.35,"Fairfax, VA",700491.6,69.78
+Virginia,Spotsylvania Courthouse,66858,5548,32.0,45.66,250.31,0.18,"Spotsylvania, VA",452218.7,26.09
+Virginia,Springfield,109235,31769,41.0,141.19,1287.06,0.26,"Fairfax, VA",700491.6,48.85
+Virginia,Springville,49375,1223,37.0,14.03,102.76,0.03,"Patrick, VA",210865.5,4.67
+Virginia,Stafford Courthouse,86680,4910,36.7,183.43,564.31,0.19,"Stafford County, VA",463781.76,32.81
+Virginia,Stanley,40357,2029,41.8,43.2,528.04,0.08,"Page, VA",275412.7,9.51
+Virginia,Stanleytown,38466,1139,50.2,24.79,168.08,0.09,"Henry, VA",168240.9,5.37
+Virginia,Staunton,53041,25358,40.9,68.99,503.32,0.18,"Augusta, VA",361961.5,21.19
+Virginia,Stephens City,80625,2308,32.1,92.15,552.39,0.13,"Frederick, VA",438624.4,25.73
+Virginia,Sterling,110915,31202,34.4,157.72,2011.08,0.25,"Loudoun, VA",723663.5,49.57
+Virginia,Stone Ridge,173102,15776,35.0,366.13,2193.73,0.41,"Loudoun, VA",723663.5,72.34
+Virginia,Strasburg,52486,7036,36.6,56.32,846.79,0.13,"Shenandoah, VA",323437.4,16.3
+Virginia,Stuart,29224,1431,55.4,36.61,185.14,0.11,"Patrick, VA",210865.5,7.54
+Virginia,Stuarts Draft,68171,11954,44.2,21.02,145.9,0.13,"Augusta, VA",361961.5,19.34
+Virginia,Sudley,86338,18613,34.5,175.53,2430.92,0.17,"Prince William County, VA",525613.54,34.32
+Virginia,Suffolk,81883,93268,38.2,16.24,82.69,0.19,"Suffolk, VA",396166.9,25.76
+Virginia,Sugarland Run,135931,12928,34.8,249.07,2401.2,0.29,"Loudoun, VA",723663.5,57.23
+Virginia,Sully Square,146776,2288,32.5,325.75,1355.1,0.32,"Fairfax County, VA",714215.36,62.16
+Virginia,Tappahannock,37695,1945,37.4,73.72,301.24,0.14,"Essex, VA",343222.2,16.17
+Virginia,Tazewell,36074,4459,45.1,10.36,2.93,0.15,"Tazewell, VA",173300.0,8.45
+Virginia,Timberlake,62715,12972,38.3,56.32,523.74,0.22,"Campbell, VA",292775.0,21.9
+Virginia,Timberville,52411,2943,35.2,59.43,1073.03,0.08,"Rockingham, VA",350421.4,14.2
+Virginia,Triangle,96207,10868,33.6,132.32,1660.57,0.25,"Prince William, VA",541120.3,39.72
+Virginia,Tuckahoe,82980,48187,40.3,172.01,552577.9,0.34,"Henrico, VA",397779.2,38.82
+Virginia,Twin Lakes,59369,1552,36.0,43.65,541.94,0.16,"Franklin, VA",471875.0,24.97
+Virginia,Tysons,126438,26171,36.0,427.54,2267.75,0.38,"Fairfax, VA",700491.6,64.81
+Virginia,Union Hall,98125,1081,59.8,6.73,22.33,0.3,"Franklin, VA",471875.0,38.17
+Virginia,Union Mill,219519,4574,43.6,46.08,347.2,0.42,"Fairfax, VA",700491.6,71.16
+Virginia,University Center,76313,4176,30.4,572.91,1932.53,0.31,"Fairfax, VA",700491.6,56.84
+Virginia,University of Virginia,42107,9384,19.7,412.06,1377.54,0.37,"Albemarle, VA",553846.6,46.2
+Virginia,Verona,60280,4410,42.2,44.27,246.22,0.11,"Augusta, VA",361961.5,17.84
+Virginia,Victoria,29470,2022,40.8,81.53,319.47,0.05,"Lunenburg, VA",249118.7,6.34
+Virginia,Vienna,200938,16465,41.7,267.48,1344.75,0.28,"Fairfax, VA",700491.6,65.41
+Virginia,Vinton,56829,8039,40.5,86.71,1008.72,0.14,"Roanoke County, VA",357072.04,19.84
+Virginia,Virginia Beach,81810,457658,36.7,84.66,771.7,0.24,"Virginia Beach, VA",381529.1,30.01
+Virginia,Wakefield,53063,1259,29.9,124.35,125.45,0.11,"Sussex County, VA",338277.86,16.97
+Virginia,Warrenton,78275,10002,40.2,219.0,875.82,0.23,"Fauquier, VA",678276.7,43.62
+Virginia,Warsaw,62321,2281,40.2,88.38,291.75,0.11,"Richmond County, VA",346370.49,17.86
+Virginia,Waverly,66250,2696,35.2,38.72,313.45,0.09,"Sussex County, VA",389923.23,18.29
+Virginia,Waynesboro,47238,22149,39.1,72.46,538.53,0.18,"Waynesboro City, VA",325176.34,18.81
+Virginia,Weber City,39570,1554,46.0,103.95,574.9,0.11,"Scott, VA",172467.5,8.28
+Virginia,West Falls Church,116450,31023,37.4,180.85,2271.47,0.27,"Fairfax, VA",700491.6,51.54
+Virginia,Westlake Corner,54286,1691,58.3,9.54,59.32,0.19,"Franklin, VA",471875.0,25.38
+Virginia,West Point,80300,3364,42.9,53.09,267.75,0.24,"King William County, VA",427357.78,30.69
+Virginia,West Springfield,138857,23562,38.4,167.09,1838.9,0.31,"Fairfax, VA",700491.6,56.26
+Virginia,Weyers Cave,68917,2167,34.4,105.1,134.28,0.23,"Augusta, VA",361961.5,26.97
+Virginia,Williamsburg,65297,15299,26.1,183.98,485.39,0.27,"James City County, VA",402037.17,32.22
+Virginia,Winchester,61321,28194,36.6,247.28,1045.39,0.2,"Frederick, VA",438624.4,30.69
+Virginia,Windsor,54444,2759,42.8,48.91,245.81,0.13,"Isle of Wight, VA",391572.8,19.2
+Virginia,Wise,41250,2976,41.1,6.36,2.34,0.12,"Wise County, VA",300167.98,12.11
+Virginia,Wolf Trap,225962,16394,45.8,392.46,45309.8,0.33,"Fairfax, VA",700491.6,74.59
+Virginia,Woodbridge,80820,42734,33.9,190.8,1668.4,0.19,"Prince William, VA",541120.3,35.33
+Virginia,Woodburn,124293,10168,32.6,217.98,1489.51,0.33,"Fairfax, VA",700491.6,56.92
+Virginia,Woodlake,115634,7398,40.3,75.93,1221.12,0.4,"Prince William County, VA",649383.6,54.41
+Virginia,Woodlawn,82486,22590,35.2,159.09,3759.23,0.18,"Fairfax, VA",700491.6,40.89
+Virginia,Woodstock,61210,5716,39.1,69.59,611.95,0.15,"Shenandoah, VA",323437.4,18.84
+Virginia,Wyndham,215417,12143,38.6,102.78,1281.41,0.39,"Henrico, VA",397779.2,57.56
+Virginia,Wytheville,41074,8260,46.8,44.89,251.7,0.14,"Wythe County, VA",240486.66,12.21
+Virginia,Yorkshire,87356,10033,29.7,153.06,1408.84,0.1,"York, VA",445132.5,26.01
