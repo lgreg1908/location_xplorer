@@ -26,7 +26,7 @@ small_input_style = {"width": "60px", "fontSize": "12px"}
 
 # --- Layout ---
 app.layout = dbc.Container([
-    html.H1("Business Location Dashboard", style={"textAlign": "center", "marginTop": "20px", "marginBottom": "20px"}),
+    html.H1("Business Location Explorer", style={"textAlign": "center", "marginTop": "20px", "marginBottom": "20px"}),
 
     # --- Row 1: County, State, and Population Filters ---
     dbc.Row([
@@ -675,6 +675,8 @@ def sync_houseprice_slider_and_inputs(slider_val, min_input, max_input):
         return new_slider_val, new_min, new_max
     else:
         return slider_val, slider_val[0], slider_val[1]
+
+server = app.server
 
 if __name__ == "__main__":
     app.run_server(debug=True)
