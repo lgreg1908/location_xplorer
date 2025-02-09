@@ -1,5 +1,5 @@
 import dash
-from dash import dcc, html, Input, Output, callback_context
+from dash import dcc, html, Input, Output, callback_context, State
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
@@ -24,11 +24,75 @@ app.title = "Location Explorer"
 # Common style for small input boxes.
 small_input_style = {"width": "60px", "fontSize": "12px"}
 
-# --- Layout ---
 app.layout = dbc.Container([
-    html.H1("Business Location Explorer", style={"textAlign": "center", "marginTop": "20px", "marginBottom": "20px"}),
+    # Header
+    html.H1("Business Location Explorer", style={"textAlign": "center", "marginTop": "20px", "marginBottom": "10px"}),
 
-    # --- Row 1: County, State, and Population Filters ---
+    # About the Metrics Link
+    html.Div([
+        html.A("About the Metrics", id="open-about", href="#",
+               style={"cursor": "pointer", "textDecoration": "underline", "color": "#007bff"})
+    ], style={"textAlign": "center", "marginBottom": "20px"}),
+
+    # Modal for About the Metrics
+    dbc.Modal(
+        [
+            dbc.ModalHeader("About the Metrics"),
+            dbc.ModalBody(
+                dcc.Markdown("""
+**Composite Score**  
+This metric is computed using Principal Component Analysis (PCA) on several continuous variables. The process involves:  
+1. **Adjustments:** Each variable is adjusted by a specific factor.  
+2. **Standardization:** The adjusted values are standardized.  
+3. **PCA:** The first principal component is extracted.  
+4. **Scaling:** The component is scaled to a range of 0–100.
+
+**Intersection Density and Area**  
+Derived from the walking network of a location:  
+- The number of intersections (nodes) is counted.  
+- The area is computed from the convex hull of these intersections (converted to square kilometers).
+
+**Percentage with Bachelor’s Degree**  
+Calculated as the proportion of the population over 25 years old with a bachelor’s degree.
+
+**Data Sources and Imputation**  
+- **Census Data:** Sourced from the 2021 Census for variables such as population and median age.  
+- **Median Sale Price:** Obtained from Redfin at the county level.  
+- **Data Integration:** OpenAI was used to impute county data for joining census and real estate datasets.  
+- **House Price Imputation:** Missing house prices were imputed using random forest regression (R² = 0.62 on test data).
+                """)
+            ),
+            dbc.ModalFooter(
+                dbc.Button("Close", id="close-about", className="ml-auto")
+            ),
+        ],
+        id="modal-about",
+        is_open=False,
+        centered=True,
+    ),
+
+    # Row 1: Town Detail Section with Info Tooltip
+    dbc.Row([
+        dbc.Col([
+            html.Div([
+                html.H2("Town Detail", style={"textAlign": "center", "display": "inline-block"}),
+                html.Span("ℹ️", id="town-detail-info",
+                          style={"cursor": "pointer", "marginLeft": "5px", "fontSize": "18px"})
+            ]),
+            dcc.Graph(id="town-detail-chart", config={"displayModeBar": False}, style={"height": "400px"}),
+            dbc.Button("Clear Town Selection", id="clear-town-button", color="secondary", className="mt-2")
+        ], width=12)
+    ], id="town-detail-container", style={"display": "none", "marginBottom": "40px"}),
+    dbc.Tooltip(
+        "This section shows detailed normalized metrics for the town you select from one of the charts below.",
+        target="town-detail-info",
+        placement="right"
+    ),
+
+    # Store for selected town.
+    dcc.Store(id="selected-town-store", data=None),
+
+    # Row 2: Basic Filters (County, State, Population)
     dbc.Row([
         dbc.Col([
             html.Label("County Filter"),
@@ -68,7 +132,7 @@ app.layout = dbc.Container([
                         value=[int(df["population"].min()), int(df["population"].max())],
                         marks={
                             int(df["population"].min()): str(int(df["population"].min())),
-                            int((df["population"].min() + df["population"].max())/2): str(int((df["population"].min() + df["population"].max())/2)),
+                            int((df["population"].min() + df["population"].max()) / 2): str(int((df["population"].min() + df["population"].max()) / 2)),
                             int(df["population"].max()): str(int(df["population"].max()))
                         },
                         tooltip={"always_visible": True, "placement": "bottom"}
@@ -87,7 +151,7 @@ app.layout = dbc.Container([
         ], width=6)
     ], style={"marginBottom": "20px"}),
 
-    # --- Row 2: Age, Pct Bachelor, Income, and House Price Filters ---
+    # Row 3: Additional Filters (Age, Pct Bachelor, Income, House Price)
     dbc.Row([
         dbc.Col([
             html.Label("Age Filter"),
@@ -109,7 +173,7 @@ app.layout = dbc.Container([
                         value=[int(df["median_age"].min()), int(df["median_age"].max())],
                         marks={
                             int(df["median_age"].min()): str(int(df["median_age"].min())),
-                            int((df["median_age"].min() + df["median_age"].max())/2): str(int((df["median_age"].min() + df["median_age"].max())/2)),
+                            int((df["median_age"].min() + df["median_age"].max()) / 2): str(int((df["median_age"].min() + df["median_age"].max()) / 2)),
                             int(df["median_age"].max()): str(int(df["median_age"].max()))
                         },
                         tooltip={"always_visible": True, "placement": "bottom"}
@@ -145,9 +209,9 @@ app.layout = dbc.Container([
                         step=0.01,
                         value=[df["pct_bachelor"].min(), df["pct_bachelor"].max()],
                         marks={
-                            round(df["pct_bachelor"].min(),2): str(round(df["pct_bachelor"].min(),2)),
-                            round((df["pct_bachelor"].min() + df["pct_bachelor"].max())/2,2): str(round((df["pct_bachelor"].min() + df["pct_bachelor"].max())/2,2)),
-                            round(df["pct_bachelor"].max(),2): str(round(df["pct_bachelor"].max(),2))
+                            round(df["pct_bachelor"].min(), 2): str(round(df["pct_bachelor"].min(), 2)),
+                            round((df["pct_bachelor"].min() + df["pct_bachelor"].max()) / 2, 2): str(round((df["pct_bachelor"].min() + df["pct_bachelor"].max()) / 2, 2)),
+                            round(df["pct_bachelor"].max(), 2): str(round(df["pct_bachelor"].max(), 2))
                         },
                         tooltip={"always_visible": True, "placement": "bottom"}
                     ),
@@ -183,7 +247,7 @@ app.layout = dbc.Container([
                         value=[int(df["median_household_income"].min()), int(df["median_household_income"].max())],
                         marks={
                             int(df["median_household_income"].min()): str(int(df["median_household_income"].min())),
-                            int((df["median_household_income"].min() + df["median_household_income"].max())/2): str(int((df["median_household_income"].min() + df["median_household_income"].max())/2)),
+                            int((df["median_household_income"].min() + df["median_household_income"].max()) / 2): str(int((df["median_household_income"].min() + df["median_household_income"].max()) / 2)),
                             int(df["median_household_income"].max()): str(int(df["median_household_income"].max()))
                         },
                         tooltip={"always_visible": True, "placement": "bottom"}
@@ -220,7 +284,7 @@ app.layout = dbc.Container([
                         value=[int(df["median_sale_price"].min()), int(df["median_sale_price"].max())],
                         marks={
                             int(df["median_sale_price"].min()): str(int(df["median_sale_price"].min())),
-                            int((df["median_sale_price"].min() + df["median_sale_price"].max())/2): str(int((df["median_sale_price"].min() + df["median_sale_price"].max())/2)),
+                            int((df["median_sale_price"].min() + df["median_sale_price"].max()) / 2): str(int((df["median_sale_price"].min() + df["median_sale_price"].max()) / 2)),
                             int(df["median_sale_price"].max()): str(int(df["median_sale_price"].max()))
                         },
                         tooltip={"always_visible": True, "placement": "bottom"}
@@ -239,7 +303,7 @@ app.layout = dbc.Container([
         ], width=3)
     ], style={"marginBottom": "20px"}),
 
-    # --- Row 3: Town Search (Moved Below the Filters) ---
+    # Row 4: Town Search
     dbc.Row([
         dbc.Col([
             html.Label("Town Search"),
@@ -254,27 +318,7 @@ app.layout = dbc.Container([
         ], width=12)
     ], style={"marginBottom": "20px"}),
 
-    # --- Row 4: Town Detail Chart (Single Town View) ---
-    dbc.Row([
-        dbc.Col([
-            html.H2("Town Detail", style={"textAlign": "center"}),
-            dbc.Button("Clear Town Selection", id="clear-town-button", color="secondary", style={"marginBottom": "20px"}),
-            dcc.Graph(id="town-detail-chart", config={"displayModeBar": False}, style={"height": "400px"})
-        ], width=12)
-    ], id="town-detail-container", style={"display": "none", "marginBottom": "40px"}),
-
-    # Store for selected town.
-    dcc.Store(id="selected-town-store", data=None),
-
-    # --- Row 5: Horizontal Bar Chart ---
-    dbc.Row([
-        dbc.Col(
-            dcc.Graph(id="bar-chart", config={"displayModeBar": False}),
-            width=12, style={"height": "800px", "overflowY": "scroll"}
-        )
-    ]),
-
-    # --- Row 6: Scatter Plot ---
+    # Row 5: Scatter Plot
     dbc.Row([
         dbc.Col(html.H2("Scatter Plot", style={"textAlign": "center"}), width=12),
         dbc.Row([
@@ -299,11 +343,43 @@ app.layout = dbc.Container([
             dcc.Graph(id="scatter-plot", config={"displayModeBar": False}, style={"height": "600px"}),
             width=12
         )
-    ]),
+    ], style={"marginBottom": "20px"}),
 
-    # --- Row 7: Town Comparison Section ---
+    # Row 6: Bar Chart with Dimension Selector
     dbc.Row([
-        dbc.Col(html.H3("Town Comparison", style={"textAlign": "center", "marginBottom": "20px"}), width=12),
+        dbc.Col(html.H2("Bar Chart", style={"textAlign": "center"}), width=12),
+        dbc.Row([
+            dbc.Col(html.Label("Select Dimension"), width=3),
+            dbc.Col(
+                dcc.Dropdown(
+                    id="bar-dimension",
+                    options=[{"label": "Composite Score", "value": "composite_score"}] +
+                            [{"label": var.replace("_", " ").title(), "value": var} for var in cont_vars if var != "composite_score"],
+                    value="composite_score"
+                ),
+                width=9
+            )
+        ], style={"marginBottom": "20px"}),
+        dbc.Col(
+            dcc.Graph(id="bar-chart", config={"displayModeBar": False}),
+            width=12, style={"height": "800px", "overflowY": "scroll"}
+        )
+    ], style={"marginBottom": "20px"}),
+
+    # Row 7: Side-by-Side Town Comparison Section with Guidance
+    dbc.Row([
+        dbc.Col(
+            html.Div([
+                html.H3("Town Comparison", style={"textAlign": "center", "display": "inline-block"}),
+                html.Span("ℹ️", id="comparison-info", style={"cursor": "pointer", "marginLeft": "5px", "fontSize": "18px"})
+            ]),
+            width=12
+        ),
+        dbc.Tooltip(
+            "Select two towns from the dropdowns below to compare their detailed metrics side-by-side.",
+            target="comparison-info",
+            placement="right"
+        ),
         dbc.Row([
             dbc.Col([
                 html.Label("Town 1"),
@@ -332,13 +408,24 @@ app.layout = dbc.Container([
         ])
     ], style={"marginBottom": "40px"}),
 
-    # --- Dummy output for clientside callbacks ---
+    # Dummy output for clientside callbacks.
     html.Div(id="dummy-output", style={"display": "none"})
 ], fluid=True, style={"padding": "20px"})
 
 # --- Callbacks ---
 
-# Callback A: Update Selected Town Store based on click events, town search, and clear button.
+# Callback to toggle the About Metrics modal.
+@app.callback(
+    Output("modal-about", "is_open"),
+    [Input("open-about", "n_clicks"), Input("close-about", "n_clicks")],
+    [State("modal-about", "is_open")]
+)
+def toggle_modal(n_open, n_close, is_open):
+    if n_open or n_close:
+        return not is_open
+    return is_open
+
+# Callback A: Update Selected Town based on clicks (scatter or bar) or town search.
 @app.callback(
     Output("selected-town-store", "data"),
     [Input("bar-chart", "clickData"),
@@ -347,10 +434,10 @@ app.layout = dbc.Container([
      Input("town-search", "value")]
 )
 def update_selected_town(bar_click, scatter_click, clear_click, town_search):
-    ctx_trigger = callback_context
-    if not ctx_trigger.triggered:
+    ctx = callback_context
+    if not ctx.triggered:
         return dash.no_update
-    triggered_id = ctx_trigger.triggered[0]['prop_id'].split('.')[0]
+    triggered_id = ctx.triggered[0]['prop_id'].split('.')[0]
     if triggered_id == 'clear-town-button':
         return None
     elif triggered_id == 'town-search':
@@ -358,7 +445,7 @@ def update_selected_town(bar_click, scatter_click, clear_click, town_search):
     elif triggered_id == 'bar-chart':
         if bar_click and 'points' in bar_click and len(bar_click['points']) > 0:
             point = bar_click['points'][0]
-            # In the bar chart, customdata = [id, town_key]
+            # For bar chart, customdata = [id, town_key]
             if 'customdata' in point and isinstance(point['customdata'], list) and len(point['customdata']) >= 2:
                 return point['customdata'][1]
     elif triggered_id == 'scatter-plot':
@@ -369,7 +456,7 @@ def update_selected_town(bar_click, scatter_click, clear_click, town_search):
                 return point['customdata'][0]
     return dash.no_update
 
-# Callback B: Update Town Detail Chart.
+# Callback B: Update the Town Detail Chart based on the selected town.
 @app.callback(
     [Output("town-detail-chart", "figure"),
      Output("town-detail-container", "style")],
@@ -399,7 +486,7 @@ def update_town_detail_chart(selected_town):
     fig.update_layout(xaxis_title="Normalized Value (0-1)", yaxis_title="Metric")
     return fig, {"display": "block", "marginBottom": "40px"}
 
-# Callback C: Update the Horizontal Bar Chart.
+# Callback C: Update the Bar Chart (with selectable dimension) based on filters.
 @app.callback(
     Output("bar-chart", "figure"),
     [Input("county-filter", "value"),
@@ -410,10 +497,11 @@ def update_town_detail_chart(selected_town):
      Input("age-slider", "value"),
      Input("bachelor-slider", "value"),
      Input("income-slider", "value"),
-     Input("houseprice-slider", "value")]
+     Input("houseprice-slider", "value"),
+     Input("bar-dimension", "value")]
 )
 def update_bar_chart(county_filter, state_filter, pop_slider, pop_min, pop_max,
-                     age_slider, bachelor_slider, income_slider, houseprice_slider):
+                     age_slider, bachelor_slider, income_slider, houseprice_slider, bar_dimension):
     dff = df.copy()
     if county_filter:
         dff = dff[dff["county"].isin(county_filter)]
@@ -427,16 +515,16 @@ def update_bar_chart(county_filter, state_filter, pop_slider, pop_min, pop_max,
     dff = dff[(dff["median_household_income"] >= income_slider[0]) & (dff["median_household_income"] <= income_slider[1])]
     dff = dff[(dff["median_sale_price"] >= houseprice_slider[0]) & (dff["median_sale_price"] <= houseprice_slider[1])]
     dff["label"] = dff["state_name"] + ", " + dff["town"]
-    dff_sorted = dff.sort_values("composite_score", ascending=False).reset_index(drop=True)
+    dff_sorted = dff.sort_values(bar_dimension, ascending=False).reset_index(drop=True)
     dff_sorted["id"] = dff_sorted.index
     fig = px.bar(
         dff_sorted,
-        x="composite_score",
+        x=bar_dimension,
         y="label",
         orientation="h",
-        title="Composite Score by Town (Descending)",
+        title=f"{bar_dimension.replace('_', ' ').title()} by Town (Descending)",
         custom_data=["id", "town_key"],
-        text="composite_score"
+        text=bar_dimension
     )
     fig.update_layout(yaxis={'categoryorder': 'total ascending'})
     fig.update_traces(customdata=dff_sorted[["id", "town_key"]].values.tolist())
@@ -448,7 +536,7 @@ def update_bar_chart(county_filter, state_filter, pop_slider, pop_min, pop_max,
     fig.update_layout(height=height)
     return fig
 
-# Callback D: Update the Scatter Plot.
+# Callback D: Update the Scatter Plot based on filters.
 @app.callback(
     Output("scatter-plot", "figure"),
     [Input("x-variable", "value"),
@@ -482,7 +570,6 @@ def update_scatter(x_var, y_var, county_filter, state_filter, pop_slider, pop_mi
     hover_order = {"state_name": True, "county": True, "town": True}
     for var in cont_vars:
         hover_order[var] = True
-    # Use only town_key as custom_data for the scatter plot.
     fig = px.scatter(
         dff,
         x=x_var,
@@ -493,11 +580,10 @@ def update_scatter(x_var, y_var, county_filter, state_filter, pop_slider, pop_mi
     )
     default_color = "#636efa"
     fig.update_traces(marker=dict(color=default_color, size=12))
-    # Set clickmode to 'event' so that a single click returns a single point.
     fig.update_layout(transition_duration=500, clickmode='event')
     return fig
 
-# Callback E (Client-side): Scroll to Town Detail when a town is selected.
+# Callback E (Client-side): Scroll to the Town Detail view when a town is selected.
 app.clientside_callback(
     """
     function(selectedTown) {
@@ -514,7 +600,7 @@ app.clientside_callback(
     Input("selected-town-store", "data")
 )
 
-# Callback F: Update Comparison Charts for Side-by-Side Town Comparison.
+# Callback F: Update the Side-by-Side Comparison Charts.
 @app.callback(
     [Output("comparison-chart-1", "figure"),
      Output("comparison-chart-2", "figure")],
@@ -549,9 +635,7 @@ def update_comparison_charts(town1, town2):
     fig2 = create_detail_figure(town2)
     return fig1, fig2
 
-# --- Synchronization Callbacks for the Filters ---
-
-# Population Filter synchronization.
+# --- Synchronization Callbacks for Filters ---
 @app.callback(
     [Output("population-slider", "value"),
      Output("population-min-input", "value"),
@@ -573,10 +657,8 @@ def sync_population_slider_and_inputs(slider_val, min_input, max_input):
             new_max = new_min
         new_slider_val = [new_min, new_max]
         return new_slider_val, new_min, new_max
-    else:
-        return slider_val, slider_val[0], slider_val[1]
+    return slider_val, slider_val[0], slider_val[1]
 
-# Age Filter synchronization.
 @app.callback(
     [Output("age-slider", "value"),
      Output("age-min-input", "value"),
@@ -598,10 +680,8 @@ def sync_age_slider_and_inputs(slider_val, min_input, max_input):
             new_max = new_min
         new_slider_val = [new_min, new_max]
         return new_slider_val, new_min, new_max
-    else:
-        return slider_val, slider_val[0], slider_val[1]
+    return slider_val, slider_val[0], slider_val[1]
 
-# Pct Bachelor Filter synchronization.
 @app.callback(
     [Output("bachelor-slider", "value"),
      Output("bachelor-min-input", "value"),
@@ -623,10 +703,8 @@ def sync_bachelor_slider_and_inputs(slider_val, min_input, max_input):
             new_max = new_min
         new_slider_val = [new_min, new_max]
         return new_slider_val, new_min, new_max
-    else:
-        return slider_val, slider_val[0], slider_val[1]
+    return slider_val, slider_val[0], slider_val[1]
 
-# Income Filter synchronization.
 @app.callback(
     [Output("income-slider", "value"),
      Output("income-min-input", "value"),
@@ -648,10 +726,8 @@ def sync_income_slider_and_inputs(slider_val, min_input, max_input):
             new_max = new_min
         new_slider_val = [new_min, new_max]
         return new_slider_val, new_min, new_max
-    else:
-        return slider_val, slider_val[0], slider_val[1]
+    return slider_val, slider_val[0], slider_val[1]
 
-# House Price Filter synchronization.
 @app.callback(
     [Output("houseprice-slider", "value"),
      Output("houseprice-min-input", "value"),
@@ -673,10 +749,11 @@ def sync_houseprice_slider_and_inputs(slider_val, min_input, max_input):
             new_max = new_min
         new_slider_val = [new_min, new_max]
         return new_slider_val, new_min, new_max
-    else:
-        return slider_val, slider_val[0], slider_val[1]
+    return slider_val, slider_val[0], slider_val[1]
 
 server = app.server
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    import os
+    port = int(os.environ.get("PORT", 5001))
+    app.run_server(host="0.0.0.0", port=port, debug=True)
