@@ -1,5 +1,5 @@
 import dash
-from dash import dcc, html, Input, Output, callback_context, State, dash_table
+from dash import dcc, html, Input, Output, State, callback_context, dash_table
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
@@ -151,7 +151,10 @@ Calculated as the proportion of the population over 25 years old with a bachelor
         ], width=6)
     ], style={"marginBottom": "20px"}),
 
-    # Row 3: Additional Filters (Age, Pct Bachelor, Income, House Price)
+    # ------------------------------------------------------------------
+    # Additional Filters (Two Rows with 3 filters each)
+    # ------------------------------------------------------------------
+    # Row 3: Age, Pct Bachelor, Income Filters
     dbc.Row([
         dbc.Col([
             html.Label("Age Filter"),
@@ -189,7 +192,7 @@ Calculated as the proportion of the population over 25 years old with a bachelor
                     style=small_input_style
                 )
             ], style={"display": "flex", "alignItems": "center", "justifyContent": "center"})
-        ], width=3),
+        ], width=4),
         dbc.Col([
             html.Label("Pct Bachelor Filter"),
             html.Div([
@@ -226,7 +229,7 @@ Calculated as the proportion of the population over 25 years old with a bachelor
                     style=small_input_style
                 )
             ], style={"display": "flex", "alignItems": "center", "justifyContent": "center"})
-        ], width=3),
+        ], width=4),
         dbc.Col([
             html.Label("Income Filter"),
             html.Div([
@@ -263,7 +266,11 @@ Calculated as the proportion of the population over 25 years old with a bachelor
                     style=small_input_style
                 )
             ], style={"display": "flex", "alignItems": "center", "justifyContent": "center"})
-        ], width=3),
+        ], width=4)
+    ], style={"marginBottom": "20px"}),
+
+    # Row 4: House Price, Intersection Density, Population Density Filters
+    dbc.Row([
         dbc.Col([
             html.Label("House Price Filter"),
             html.Div([
@@ -300,10 +307,84 @@ Calculated as the proportion of the population over 25 years old with a bachelor
                     style=small_input_style
                 )
             ], style={"display": "flex", "alignItems": "center", "justifyContent": "center"})
-        ], width=3)
+        ], width=4),
+        dbc.Col([
+            html.Label("Intersection Density Filter"),
+            html.Div([
+                dcc.Input(
+                    id="intersection-min-input",
+                    type="number",
+                    placeholder="Min",
+                    value=df["intersection_density"].min(),
+                    debounce=True,
+                    style=small_input_style
+                ),
+                html.Div(
+                    dcc.RangeSlider(
+                        id="intersection-slider",
+                        min=df["intersection_density"].min(),
+                        max=df["intersection_density"].max(),
+                        step=0.1,
+                        value=[df["intersection_density"].min(), df["intersection_density"].max()],
+                        marks={
+                            df["intersection_density"].min(): str(df["intersection_density"].min()),
+                            round((df["intersection_density"].min() + df["intersection_density"].max())/2, 2): str(round((df["intersection_density"].min() + df["intersection_density"].max())/2, 2)),
+                            df["intersection_density"].max(): str(df["intersection_density"].max())
+                        },
+                        tooltip={"always_visible": True, "placement": "bottom"}
+                    ),
+                    style={"flex": "1", "margin": "0 10px"}
+                ),
+                dcc.Input(
+                    id="intersection-max-input",
+                    type="number",
+                    placeholder="Max",
+                    value=df["intersection_density"].max(),
+                    debounce=True,
+                    style=small_input_style
+                )
+            ], style={"display": "flex", "alignItems": "center", "justifyContent": "center"})
+        ], width=4),
+        dbc.Col([
+            html.Label("Population Density Filter"),
+            html.Div([
+                dcc.Input(
+                    id="popdensity-min-input",
+                    type="number",
+                    placeholder="Min",
+                    value=df["population_density"].min(),
+                    debounce=True,
+                    style=small_input_style
+                ),
+                html.Div(
+                    dcc.RangeSlider(
+                        id="popdensity-slider",
+                        min=df["population_density"].min(),
+                        max=df["population_density"].max(),
+                        step=1,
+                        value=[df["population_density"].min(), df["population_density"].max()],
+                        marks={
+                            df["population_density"].min(): str(df["population_density"].min()),
+                            int((df["population_density"].min() + df["population_density"].max()) / 2): str(int((df["population_density"].min() + df["population_density"].max()) / 2)),
+                            df["population_density"].max(): str(df["population_density"].max())
+                        },
+                        tooltip={"always_visible": True, "placement": "bottom"}
+                    ),
+                    style={"flex": "1", "margin": "0 10px"}
+                ),
+                dcc.Input(
+                    id="popdensity-max-input",
+                    type="number",
+                    placeholder="Max",
+                    value=df["population_density"].max(),
+                    debounce=True,
+                    style=small_input_style
+                )
+            ], style={"display": "flex", "alignItems": "center", "justifyContent": "center"})
+        ], width=4)
     ], style={"marginBottom": "20px"}),
 
-    # Row 4: Town Search
+    # Row 5: Town Search
     dbc.Row([
         dbc.Col([
             html.Label("Town Search"),
@@ -318,7 +399,7 @@ Calculated as the proportion of the population over 25 years old with a bachelor
         ], width=12)
     ], style={"marginBottom": "20px"}),
 
-    # Row 5: Scatter Plot
+    # Row 6: Scatter Plot
     dbc.Row([
         dbc.Col(html.H2("Scatter Plot", style={"textAlign": "center"}), width=12),
         dbc.Row([
@@ -345,7 +426,7 @@ Calculated as the proportion of the population over 25 years old with a bachelor
         )
     ], style={"marginBottom": "20px"}),
 
-    # Row 6: Bar Chart with Dimension Selector
+    # Row 7: Bar Chart with Dimension Selector
     dbc.Row([
         dbc.Col(html.H2("Bar Chart", style={"textAlign": "center"}), width=12),
         dbc.Row([
@@ -366,7 +447,7 @@ Calculated as the proportion of the population over 25 years old with a bachelor
         )
     ], style={"marginBottom": "20px"}),
 
-    # Row 7: Side-by-Side Town Comparison Section with Guidance
+    # Row 8: Side-by-Side Town Comparison Section with Guidance
     dbc.Row([
         dbc.Col(
             html.Div([
@@ -425,6 +506,7 @@ town_list_content = html.Div([
             "population_density", "pct_bachelor", "median_sale_price"
         ]],
         data=[],
+        row_deletable=True,
         style_table={'overflowX': 'auto'},
         style_cell={'textAlign': 'left'},
     )
@@ -523,53 +605,54 @@ def update_town_detail_chart(selected_town):
     fig.update_layout(xaxis_title="Normalized Value (0-1)", yaxis_title="Metric")
     return fig, {"display": "block", "marginBottom": "40px"}
 
-# Callback to update the town list store (handles both adding and clearing).
+# ------------------------------------------------------------------
+# Combined Callback for Updating Town List (Store & Table)
+# ------------------------------------------------------------------
 @app.callback(
-    Output("town-list-store", "data"),
+    [Output("town-list-store", "data"),
+     Output("town-list-table", "data")],
     [Input("add-town-button", "n_clicks"),
-     Input("clear-town-list-button", "n_clicks")],
-    [State("selected-town-store", "data"),
-     State("town-list-store", "data")]
+     Input("clear-town-list-button", "n_clicks"),
+     Input("town-list-table", "data")],
+    [State("town-list-store", "data"),
+     State("selected-town-store", "data")]
 )
-def update_town_list_store(add_clicks, clear_clicks, selected_town, current_list):
+def update_town_list(add_clicks, clear_clicks, table_data, store_data, selected_town):
     ctx = callback_context
-    if not ctx.triggered:
-        return current_list
-    triggered_id = ctx.triggered[0]['prop_id'].split('.')[0]
-    if triggered_id == "clear-town-list-button":
-        return []  # Clear the list.
-    elif triggered_id == "add-town-button":
-        if selected_town is None:
-            return current_list
-        # Prevent duplicate entries.
-        if any(entry["town_key"] == selected_town for entry in current_list):
-            return current_list
-        town_data = df[df["town_key"] == selected_town]
-        if town_data.empty:
-            return current_list
-        row = town_data.iloc[0]
-        new_entry = {
-            "town_key": row["town_key"],
-            "composite_score": row.get("composite_score", None),
-            "median_household_income": row["median_household_income"],
-            "population": row["population"],
-            "median_age": row["median_age"],
-            "intersection_density": row["intersection_density"],
-            "population_density": row["population_density"],
-            "pct_bachelor": row["pct_bachelor"],
-            "median_sale_price": row["median_sale_price"],
-        }
-        current_list.append(new_entry)
-        return current_list
-    return current_list
+    if store_data is None:
+        store_data = []
+    # Determine which input triggered this callback.
+    triggered = ctx.triggered[0]["prop_id"].split(".")[0] if ctx.triggered else None
 
-# Callback to update the table of added towns.
-@app.callback(
-    Output("town-list-table", "data"),
-    Input("town-list-store", "data")
-)
-def update_town_list_table(town_list):
-    return town_list
+    if triggered == "town-list-table":
+        # User deleted a row using the built-in delete button.
+        new_data = table_data
+    elif triggered == "clear-town-list-button":
+        new_data = []
+    elif triggered == "add-town-button":
+        new_data = store_data.copy()
+        if selected_town is not None:
+            # Prevent duplicate entries.
+            if not any(entry["town_key"] == selected_town for entry in new_data):
+                town_data = df[df["town_key"] == selected_town]
+                if not town_data.empty:
+                    row = town_data.iloc[0]
+                    new_entry = {
+                        "town_key": row["town_key"],
+                        "composite_score": row.get("composite_score", None),
+                        "median_household_income": row["median_household_income"],
+                        "population": row["population"],
+                        "median_age": row["median_age"],
+                        "intersection_density": row["intersection_density"],
+                        "population_density": row["population_density"],
+                        "pct_bachelor": row["pct_bachelor"],
+                        "median_sale_price": row["median_sale_price"],
+                    }
+                    new_data.append(new_entry)
+    else:
+        new_data = store_data
+
+    return new_data, new_data
 
 # Callback C: Update the Bar Chart (with selectable dimension) based on filters.
 @app.callback(
@@ -583,10 +666,13 @@ def update_town_list_table(town_list):
      Input("bachelor-slider", "value"),
      Input("income-slider", "value"),
      Input("houseprice-slider", "value"),
+     Input("intersection-slider", "value"),
+     Input("popdensity-slider", "value"),
      Input("bar-dimension", "value")]
 )
 def update_bar_chart(county_filter, state_filter, pop_slider, pop_min, pop_max,
-                     age_slider, bachelor_slider, income_slider, houseprice_slider, bar_dimension):
+                     age_slider, bachelor_slider, income_slider, houseprice_slider,
+                     intersection_slider, popdensity_slider, bar_dimension):
     dff = df.copy()
     if county_filter:
         dff = dff[dff["county"].isin(county_filter)]
@@ -599,6 +685,8 @@ def update_bar_chart(county_filter, state_filter, pop_slider, pop_min, pop_max,
     dff = dff[(dff["pct_bachelor"] >= bachelor_slider[0]) & (dff["pct_bachelor"] <= bachelor_slider[1])]
     dff = dff[(dff["median_household_income"] >= income_slider[0]) & (dff["median_household_income"] <= income_slider[1])]
     dff = dff[(dff["median_sale_price"] >= houseprice_slider[0]) & (dff["median_sale_price"] <= houseprice_slider[1])]
+    dff = dff[(dff["intersection_density"] >= intersection_slider[0]) & (dff["intersection_density"] <= intersection_slider[1])]
+    dff = dff[(dff["population_density"] >= popdensity_slider[0]) & (dff["population_density"] <= popdensity_slider[1])]
     dff["label"] = dff["state_name"] + ", " + dff["town"]
     dff_sorted = dff.sort_values(bar_dimension, ascending=False).reset_index(drop=True)
     dff_sorted["id"] = dff_sorted.index
@@ -634,10 +722,13 @@ def update_bar_chart(county_filter, state_filter, pop_slider, pop_min, pop_max,
      Input("age-slider", "value"),
      Input("bachelor-slider", "value"),
      Input("income-slider", "value"),
-     Input("houseprice-slider", "value")]
+     Input("houseprice-slider", "value"),
+     Input("intersection-slider", "value"),
+     Input("popdensity-slider", "value")]
 )
 def update_scatter(x_var, y_var, county_filter, state_filter, pop_slider, pop_min, pop_max,
-                   age_slider, bachelor_slider, income_slider, houseprice_slider):
+                   age_slider, bachelor_slider, income_slider, houseprice_slider,
+                   intersection_slider, popdensity_slider):
     dff = df.copy()
     if county_filter:
         dff = dff[dff["county"].isin(county_filter)]
@@ -650,6 +741,8 @@ def update_scatter(x_var, y_var, county_filter, state_filter, pop_slider, pop_mi
     dff = dff[(dff["pct_bachelor"] >= bachelor_slider[0]) & (dff["pct_bachelor"] <= bachelor_slider[1])]
     dff = dff[(dff["median_household_income"] >= income_slider[0]) & (dff["median_household_income"] <= income_slider[1])]
     dff = dff[(dff["median_sale_price"] >= houseprice_slider[0]) & (dff["median_sale_price"] <= houseprice_slider[1])]
+    dff = dff[(dff["intersection_density"] >= intersection_slider[0]) & (dff["intersection_density"] <= intersection_slider[1])]
+    dff = dff[(dff["population_density"] >= popdensity_slider[0]) & (dff["population_density"] <= popdensity_slider[1])]
     dff = dff.reset_index(drop=True)
     dff["id"] = dff.index
     hover_order = {"state_name": True, "county": True, "town": True}
@@ -830,6 +923,54 @@ def sync_houseprice_slider_and_inputs(slider_val, min_input, max_input):
     if trigger_id == "houseprice-slider":
         return slider_val, slider_val[0], slider_val[1]
     elif trigger_id in ["houseprice-min-input", "houseprice-max-input"]:
+        new_min = min_input if min_input is not None else slider_val[0]
+        new_max = max_input if max_input is not None else slider_val[1]
+        if new_min > new_max:
+            new_max = new_min
+        new_slider_val = [new_min, new_max]
+        return new_slider_val, new_min, new_max
+    return slider_val, slider_val[0], slider_val[1]
+
+# New sync callback for Intersection Density Filter
+@app.callback(
+    [Output("intersection-slider", "value"),
+     Output("intersection-min-input", "value"),
+     Output("intersection-max-input", "value")],
+    [Input("intersection-slider", "value"),
+     Input("intersection-min-input", "value"),
+     Input("intersection-max-input", "value")]
+)
+def sync_intersection_slider_and_inputs(slider_val, min_input, max_input):
+    if not callback_context.triggered:
+        return slider_val, slider_val[0], slider_val[1]
+    trigger_id = callback_context.triggered[0]["prop_id"].split('.')[0]
+    if trigger_id == "intersection-slider":
+        return slider_val, slider_val[0], slider_val[1]
+    elif trigger_id in ["intersection-min-input", "intersection-max-input"]:
+        new_min = min_input if min_input is not None else slider_val[0]
+        new_max = max_input if max_input is not None else slider_val[1]
+        if new_min > new_max:
+            new_max = new_min
+        new_slider_val = [new_min, new_max]
+        return new_slider_val, new_min, new_max
+    return slider_val, slider_val[0], slider_val[1]
+
+# New sync callback for Population Density Filter
+@app.callback(
+    [Output("popdensity-slider", "value"),
+     Output("popdensity-min-input", "value"),
+     Output("popdensity-max-input", "value")],
+    [Input("popdensity-slider", "value"),
+     Input("popdensity-min-input", "value"),
+     Input("popdensity-max-input", "value")]
+)
+def sync_popdensity_slider_and_inputs(slider_val, min_input, max_input):
+    if not callback_context.triggered:
+        return slider_val, slider_val[0], slider_val[1]
+    trigger_id = callback_context.triggered[0]["prop_id"].split('.')[0]
+    if trigger_id == "popdensity-slider":
+        return slider_val, slider_val[0], slider_val[1]
+    elif trigger_id in ["popdensity-min-input", "popdensity-max-input"]:
         new_min = min_input if min_input is not None else slider_val[0]
         new_max = max_input if max_input is not None else slider_val[1]
         if new_min > new_max:
