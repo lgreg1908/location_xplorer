@@ -1,5 +1,5 @@
 import dash
-from dash import dcc, html, Input, Output, callback_context, State
+from dash import dcc, html, Input, Output, callback_context, State, dash_table
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
@@ -24,17 +24,16 @@ app.title = "Location Explorer"
 # Common style for small input boxes.
 small_input_style = {"width": "60px", "fontSize": "12px"}
 
-app.layout = dbc.Container([
-    # Header
+# ------------------------------------------------------------------
+# Dashboard Tab Content
+# ------------------------------------------------------------------
+dashboard_content = html.Div([
+    # Header and About Metrics modal (shared on all tabs)
     html.H1("Business Location Explorer", style={"textAlign": "center", "marginTop": "20px", "marginBottom": "10px"}),
-
-    # About the Metrics Link
     html.Div([
         html.A("About the Metrics", id="open-about", href="#",
                style={"cursor": "pointer", "textDecoration": "underline", "color": "#007bff"})
     ], style={"textAlign": "center", "marginBottom": "20px"}),
-
-    # Modal for About the Metrics
     dbc.Modal(
         [
             dbc.ModalHeader("About the Metrics"),
@@ -71,16 +70,16 @@ Calculated as the proportion of the population over 25 years old with a bachelor
         centered=True,
     ),
 
-    # Row 1: Town Detail Section with Info Tooltip
+    # Row 1: Town Detail Section with Info Tooltip and Add Town Button
     dbc.Row([
         dbc.Col([
             html.Div([
                 html.H2("Town Detail", style={"textAlign": "center", "display": "inline-block"}),
-                html.Span("ℹ️", id="town-detail-info",
-                          style={"cursor": "pointer", "marginLeft": "5px", "fontSize": "18px"})
+                html.Span("ℹ️", id="town-detail-info", style={"cursor": "pointer", "marginLeft": "5px", "fontSize": "18px"})
             ]),
             dcc.Graph(id="town-detail-chart", config={"displayModeBar": False}, style={"height": "400px"}),
-            dbc.Button("Clear Town Selection", id="clear-town-button", color="secondary", className="mt-2")
+            dbc.Button("Clear Town Selection", id="clear-town-button", color="secondary", className="mt-2"),
+            dbc.Button("Add Town to List", id="add-town-button", color="primary", className="mt-2", style={"marginLeft": "10px"})
         ], width=12)
     ], id="town-detail-container", style={"display": "none", "marginBottom": "40px"}),
     dbc.Tooltip(
@@ -89,8 +88,9 @@ Calculated as the proportion of the population over 25 years old with a bachelor
         placement="right"
     ),
 
-    # Store for selected town.
+    # Stores for selected town and town list.
     dcc.Store(id="selected-town-store", data=None),
+    dcc.Store(id="town-list-store", data=[]),
 
     # Row 2: Basic Filters (County, State, Population)
     dbc.Row([
@@ -406,13 +406,50 @@ Calculated as the proportion of the population over 25 years old with a bachelor
             dbc.Col(dcc.Graph(id="comparison-chart-1", config={"displayModeBar": False}), width=6),
             dbc.Col(dcc.Graph(id="comparison-chart-2", config={"displayModeBar": False}), width=6)
         ])
-    ], style={"marginBottom": "40px"}),
+    ], style={"marginBottom": "40px"})
+])
 
+# ------------------------------------------------------------------
+# Town List Tab Content
+# ------------------------------------------------------------------
+town_list_content = html.Div([
+    html.H2("Town List", style={"textAlign": "center", "marginTop": "20px"}),
+    dbc.Button("Export Town List", id="export-town-list-button", color="primary", className="mb-2", style={"marginRight": "10px"}),
+    dbc.Button("Clear Town List", id="clear-town-list-button", color="danger", className="mb-2"),
+    dcc.Download(id="download-town-list"),
+    dash_table.DataTable(
+        id="town-list-table",
+        columns=[{"name": col, "id": col} for col in [
+            "town_key", "composite_score", "median_household_income", 
+            "population", "median_age", "intersection_density", 
+            "population_density", "pct_bachelor", "median_sale_price"
+        ]],
+        data=[],
+        style_table={'overflowX': 'auto'},
+        style_cell={'textAlign': 'left'},
+    )
+])
+
+# ------------------------------------------------------------------
+# Main Layout with Tabs
+# ------------------------------------------------------------------
+app.layout = dbc.Container([
+    dbc.Tabs(
+        [
+            dbc.Tab(dashboard_content, label="Dashboard", tab_id="dashboard-tab"),
+            dbc.Tab(town_list_content, label="Town List", tab_id="town-list-tab"),
+        ],
+        id="tabs",
+        active_tab="dashboard-tab",
+        className="mb-3"
+    ),
     # Dummy output for clientside callbacks.
     html.Div(id="dummy-output", style={"display": "none"})
 ], fluid=True, style={"padding": "20px"})
 
-# --- Callbacks ---
+# ------------------------------------------------------------------
+# Callbacks
+# ------------------------------------------------------------------
 
 # Callback to toggle the About Metrics modal.
 @app.callback(
@@ -485,6 +522,54 @@ def update_town_detail_chart(selected_town):
     fig.update_traces(texttemplate="%{text}", textposition="outside")
     fig.update_layout(xaxis_title="Normalized Value (0-1)", yaxis_title="Metric")
     return fig, {"display": "block", "marginBottom": "40px"}
+
+# Callback to update the town list store (handles both adding and clearing).
+@app.callback(
+    Output("town-list-store", "data"),
+    [Input("add-town-button", "n_clicks"),
+     Input("clear-town-list-button", "n_clicks")],
+    [State("selected-town-store", "data"),
+     State("town-list-store", "data")]
+)
+def update_town_list_store(add_clicks, clear_clicks, selected_town, current_list):
+    ctx = callback_context
+    if not ctx.triggered:
+        return current_list
+    triggered_id = ctx.triggered[0]['prop_id'].split('.')[0]
+    if triggered_id == "clear-town-list-button":
+        return []  # Clear the list.
+    elif triggered_id == "add-town-button":
+        if selected_town is None:
+            return current_list
+        # Prevent duplicate entries.
+        if any(entry["town_key"] == selected_town for entry in current_list):
+            return current_list
+        town_data = df[df["town_key"] == selected_town]
+        if town_data.empty:
+            return current_list
+        row = town_data.iloc[0]
+        new_entry = {
+            "town_key": row["town_key"],
+            "composite_score": row.get("composite_score", None),
+            "median_household_income": row["median_household_income"],
+            "population": row["population"],
+            "median_age": row["median_age"],
+            "intersection_density": row["intersection_density"],
+            "population_density": row["population_density"],
+            "pct_bachelor": row["pct_bachelor"],
+            "median_sale_price": row["median_sale_price"],
+        }
+        current_list.append(new_entry)
+        return current_list
+    return current_list
+
+# Callback to update the table of added towns.
+@app.callback(
+    Output("town-list-table", "data"),
+    Input("town-list-store", "data")
+)
+def update_town_list_table(town_list):
+    return town_list
 
 # Callback C: Update the Bar Chart (with selectable dimension) based on filters.
 @app.callback(
@@ -635,7 +720,9 @@ def update_comparison_charts(town1, town2):
     fig2 = create_detail_figure(town2)
     return fig1, fig2
 
-# --- Synchronization Callbacks for Filters ---
+# ------------------------------------------------------------------
+# Synchronization Callbacks for Filters
+# ------------------------------------------------------------------
 @app.callback(
     [Output("population-slider", "value"),
      Output("population-min-input", "value"),
@@ -752,6 +839,20 @@ def sync_houseprice_slider_and_inputs(slider_val, min_input, max_input):
     return slider_val, slider_val[0], slider_val[1]
 
 server = app.server
+
+# ------------------------------------------------------------------
+# Callback for exporting the town list as CSV.
+@app.callback(
+    Output("download-town-list", "data"),
+    Input("export-town-list-button", "n_clicks"),
+    State("town-list-store", "data"),
+    prevent_initial_call=True
+)
+def export_town_list(n_clicks, town_list):
+    if not town_list:
+        return dash.no_update
+    df_export = pd.DataFrame(town_list)
+    return dcc.send_data_frame(df_export.to_csv, "town_list.csv", index=False)
 
 if __name__ == "__main__":
     import os
